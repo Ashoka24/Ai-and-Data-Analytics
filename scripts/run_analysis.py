@@ -59,7 +59,7 @@ def build_summaries(df: pd.DataFrame) -> dict[str, pd.DataFrame]:
              revenue=("revenue", "sum"), profit=("profit", "sum"))
         .sort_values("month")
     )
-    monthly["profit_margin"] = monthly["profit"] / monthly["revenue"].replace(0, pd.NA)
+    monthly["profit_margin"] = monthly["profit"] / monthly["revenue"].where(monthly["revenue"] != 0)
 
     region = (
         df.groupby("region", as_index=False)
@@ -67,7 +67,7 @@ def build_summaries(df: pd.DataFrame) -> dict[str, pd.DataFrame]:
              profit=("profit", "sum"), units=("quantity", "sum"))
         .sort_values("revenue", ascending=False)
     )
-    region["profit_margin"] = region["profit"] / region["revenue"].replace(0, pd.NA)
+    region["profit_margin"] = region["profit"] / region["revenue"].where(region["revenue"] != 0)
 
     category = (
         df.groupby("category", as_index=False)
@@ -75,7 +75,7 @@ def build_summaries(df: pd.DataFrame) -> dict[str, pd.DataFrame]:
              profit=("profit", "sum"), units=("quantity", "sum"))
         .sort_values("revenue", ascending=False)
     )
-    category["profit_margin"] = category["profit"] / category["revenue"].replace(0, pd.NA)
+    category["profit_margin"] = category["profit"] / category["revenue"].where(category["revenue"] != 0)
 
     channel = (
         df.groupby(["channel", "customer_segment"], as_index=False)
