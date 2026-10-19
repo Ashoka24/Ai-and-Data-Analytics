@@ -1,10 +1,13 @@
+import sys
 import tempfile
 import unittest
 from pathlib import Path
 
 import pandas as pd
 
-from projects.customer_churn_prediction.scripts.run_analysis import load_data, run_analysis
+SCRIPT_DIR = Path(__file__).resolve().parents[1] / "scripts"
+sys.path.insert(0, str(SCRIPT_DIR))
+from run_analysis import load_data, run_analysis
 
 
 class ChurnAnalysisTests(unittest.TestCase):
