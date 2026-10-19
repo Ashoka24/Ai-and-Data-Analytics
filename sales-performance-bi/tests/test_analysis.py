@@ -1,10 +1,13 @@
+import sys
 import tempfile
 import unittest
 from pathlib import Path
 
 import pandas as pd
 
-from scripts.run_analysis import build_summaries, load_sales
+SCRIPT_DIR = Path(__file__).resolve().parents[1] / "scripts"
+sys.path.insert(0, str(SCRIPT_DIR))
+from run_analysis import build_summaries, load_sales
 
 
 class SalesAnalysisTests(unittest.TestCase):

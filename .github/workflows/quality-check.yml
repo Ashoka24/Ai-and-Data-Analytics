@@ -22,19 +22,23 @@ jobs:
         run: python -m pip install -r requirements.txt
       - name: Run sales analysis
         run: python scripts/run_analysis.py
+        working-directory: sales-performance-bi
       - name: Test sales analysis
         run: python -m unittest discover -s tests -v
+        working-directory: sales-performance-bi
       - name: Run customer churn analysis
-        run: python projects/customer-churn-prediction/scripts/run_analysis.py
+        run: python scripts/run_analysis.py
+        working-directory: customer-churn-prediction
       - name: Test customer churn analysis
-        run: python -m unittest discover -s projects/customer-churn-prediction/tests -v
+        run: python -m unittest discover -s tests -v
+        working-directory: customer-churn-prediction
       - name: Upload generated reports
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: analytics-project-output
           path: |
-            outputs/
-            reports/
-            projects/customer-churn-prediction/outputs/
+            sales-performance-bi/outputs/
+            sales-performance-bi/reports/
+            customer-churn-prediction/outputs/
           if-no-files-found: warn

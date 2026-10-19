@@ -2,8 +2,8 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
-outputs/
-reports/*.png
-reports/key_findings.md
-reports/*.pbix
+**/outputs/
+**/reports/*.png
+**/reports/key_findings.md
+**/reports/*.pbix
 .DS_Store
