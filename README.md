@@ -4,6 +4,24 @@ A small end-to-end analytics project built around a retail sales dataset. It tak
 
 > **Dataset note:** `data/raw/sales.csv` is a synthetic dataset created for this portfolio project. It is not real company data, and the findings are demonstrations of the analysis workflow rather than claims about an actual business.
 
+## Projects in this repository
+
+### 1. Sales Performance & Business Intelligence
+
+A retail sales workflow using Python, SQL, SQLite, Streamlit and Power BI guidance. It validates order data, calculates revenue and profit, and generates dashboard-ready summaries.
+
+- [Run instructions and analysis details](README.md)
+
+### 2. Customer Churn Prediction
+
+A classification project comparing logistic regression with random forest on a synthetic customer dataset. It includes a stratified train/test split, preprocessing pipelines, precision, recall, F1-score, ROC-AUC, confusion matrices, model-specific feature rankings, SQL summaries and an optional Streamlit dashboard.
+
+- [Project README](projects/customer-churn-prediction/README.md)
+- [Analysis script](projects/customer-churn-prediction/scripts/run_analysis.py)
+- [SQL queries](projects/customer-churn-prediction/sql/churn_analysis.sql)
+
+Both projects use synthetic portfolio data. Do not treat their results as findings about a real company.
+
 ## Business questions
 
 - Which months generate the most revenue and profit?
