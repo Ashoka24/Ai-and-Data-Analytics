@@ -1,3 +1,2 @@
-# Optional dependency for model-generated answers; local retrieval does not need this.
--r ../requirements.txt
+# Optional dependency for model-generated answers; install root requirements.txt first.
 openai>=1.30,<3
