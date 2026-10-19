@@ -8,11 +8,11 @@ OUT = ROOT / "outputs"
 
 st.set_page_config(page_title="Sales Performance", layout="wide")
 st.title("Sales Performance Dashboard")
-st.caption("Portfolio demonstration using a synthetic retail dataset. Run scripts/run_analysis.py before launching.")
+st.caption("Portfolio demonstration using a synthetic retail dataset. Run the project analysis script before launching.")
 
 required = [OUT / "sales_enriched.csv", OUT / "monthly_summary.csv", OUT / "region_summary.csv", OUT / "category_summary.csv"]
 if not all(p.exists() for p in required):
-    st.warning("Analysis outputs are missing. From the repository root, run: python scripts/run_analysis.py")
+    st.warning("Analysis outputs are missing. From the repository root, run: python sales-performance-bi/scripts/run_analysis.py")
     st.stop()
 
 sales = pd.read_csv(required[0], parse_dates=["order_date"])
