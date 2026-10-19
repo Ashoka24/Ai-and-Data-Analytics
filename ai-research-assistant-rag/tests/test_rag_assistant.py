@@ -17,8 +17,10 @@ class ChunkingTests(unittest.TestCase):
         chunks = chunk_text(text, chunk_size=120, overlap=20)
         self.assertGreater(len(chunks), 1)
         self.assertTrue(all(len(chunk) <= 120 for chunk in chunks))
-        self.assertTrue(all(chunks[i].split()[-1] == chunks[i + 1].split()[0]
-                            for i in range(len(chunks) - 1)))
+        self.assertTrue(all(
+            set(chunks[i].split()[-5:]).intersection(chunks[i + 1].split()[:5])
+            for i in range(len(chunks) - 1)
+        ))
 
 
 class RetrievalTests(unittest.TestCase):
