@@ -8,8 +8,9 @@ This repository brings together practical projects in business intelligence, pre
 |---|---|---|
 | [Sales Performance & Business Intelligence](sales-performance-bi/) | Retail sales analysis, profitability measures, SQL summaries and dashboard-ready outputs | Python, pandas, SQLite, SQL, Streamlit, Power BI |
 | [Customer Churn Prediction](customer-churn-prediction/) | Compare classification models with a held-out test set and review churn patterns | Python, scikit-learn, pandas, SQL, Matplotlib, Streamlit |
+| [AI Research Assistant (RAG)](ai-research-assistant-rag/) | Search local documents, retrieve relevant passages and answer with source citations | Python, scikit-learn, TF-IDF, Streamlit, optional OpenAI API |
 
-Both projects currently use synthetic datasets. Their metrics and findings demonstrate analytical methods and should not be interpreted as evidence about real businesses or customers.
+The first two projects use synthetic datasets. The RAG assistant includes original demonstration notes; add your own permitted TXT, Markdown or PDF documents to research your own material. The assistant does not browse the internet.
 
 ## Repository structure
 
@@ -17,6 +18,7 @@ Both projects currently use synthetic datasets. Their metrics and findings demon
 Ai-and-Data-Analytics/
 ├── sales-performance-bi/       # Business intelligence project
 ├── customer-churn-prediction/   # Machine learning project
+├── ai-research-assistant-rag/    # Retrieval-augmented document assistant
 ├── docs/                        # Repository-wide documentation
 ├── .github/workflows/           # Automated checks
 ├── LICENSE
@@ -49,13 +51,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Follow the run instructions in the README inside each project. GitHub Actions runs the analysis and unit tests for both projects on pushes and pull requests.
+Follow the run instructions in the README inside each project. GitHub Actions runs analysis and unit tests for all three projects on pushes and pull requests.
 
 ## Documentation
 
 - [Repository structure and contribution notes](docs/REPOSITORY_STRUCTURE.md)
 - [Sales Performance & Business Intelligence](sales-performance-bi/README.md)
 - [Customer Churn Prediction](customer-churn-prediction/README.md)
+- [AI Research Assistant (RAG)](ai-research-assistant-rag/README.md)
 
 ## Licence
 

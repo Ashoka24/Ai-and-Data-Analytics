@@ -1,0 +1,3 @@
+# Optional dependency for model-generated answers; local retrieval does not need this.
+-r ../requirements.txt
+openai>=1.30,<3

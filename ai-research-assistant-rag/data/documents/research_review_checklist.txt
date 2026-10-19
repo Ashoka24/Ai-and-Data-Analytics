@@ -1,0 +1,11 @@
+Research Review Checklist
+
+Before using a document-based answer, identify the original source and confirm its publication date, authorship, methods and limitations. For scientific claims, distinguish a primary study from a review, editorial, preprint or secondary summary.
+
+Check whether the cited passage directly supports the claim. A citation that mentions the same topic is not sufficient if it does not support the conclusion. Look for missing context, uncertainty, contradictory evidence and limitations described elsewhere in the document.
+
+Separate what a source reports from what an analyst infers. Correlation does not establish causation, and a result from one population or experimental setup may not generalize to another. Pay attention to sample size, inclusion criteria, controls, measurement methods and statistical uncertainty where these details are available.
+
+When multiple sources disagree, preserve the disagreement and compare the methods and context instead of forcing a single conclusion. Record the exact source and page so another reader can reproduce the check.
+
+A document assistant is a discovery and navigation aid. It does not replace reading the full paper, checking supplementary materials, or consulting a qualified subject-matter expert for consequential decisions.
