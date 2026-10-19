@@ -1,0 +1,121 @@
+order_id,order_date,region,state,category,product,quantity,unit_price,unit_cost,discount_pct,channel,customer_segment
+ORD0001,2025-06-12,West,Gujarat,Office Supplies,Printer Paper,6,520,310,0.1,Direct Sales,Small Business
+ORD0002,2025-11-23,East,West Bengal,Electronics,Monitor,3,14500,10200,0,Retail Partner,Corporate
+ORD0003,2026-04-07,South,Tamil Nadu,Furniture,Storage Cabinet,8,7800,4900,0.1,Online,Consumer
+ORD0004,2025-03-18,North,Delhi,Furniture,Office Chair,5,9800,6200,0,Direct Sales,Small Business
+ORD0005,2025-08-02,East,Odisha,Electronics,Laptop,2,65000,48500,0.1,Retail Partner,Corporate
+ORD0006,2026-01-13,West,Maharashtra,Office Supplies,Printer Paper,7,520,310,0,Online,Consumer
+ORD0007,2026-06-24,East,West Bengal,Electronics,Monitor,4,14500,10200,0.1,Direct Sales,Small Business
+ORD0008,2025-05-08,South,Tamil Nadu,Furniture,Storage Cabinet,1,7800,4900,0,Retail Partner,Corporate
+ORD0009,2025-11-19,North,Delhi,Furniture,Office Chair,6,9800,6200,0.1,Online,Consumer
+ORD0010,2026-04-03,East,Odisha,Electronics,Laptop,3,65000,48500,0,Direct Sales,Small Business
+ORD0011,2025-03-14,West,Maharashtra,Office Supplies,Printer Paper,8,520,310,0.1,Retail Partner,Corporate
+ORD0012,2025-08-25,North,Uttar Pradesh,Electronics,Monitor,5,14500,10200,0,Online,Consumer
+ORD0013,2026-01-09,South,Karnataka,Furniture,Storage Cabinet,2,7800,4900,0.1,Direct Sales,Small Business
+ORD0014,2026-06-20,North,Delhi,Furniture,Office Chair,7,9800,6200,0,Retail Partner,Corporate
+ORD0015,2025-05-04,East,Odisha,Electronics,Laptop,4,65000,48500,0.1,Online,Consumer
+ORD0016,2025-10-15,West,Maharashtra,Office Supplies,Printer Paper,1,520,310,0,Direct Sales,Small Business
+ORD0017,2026-03-26,North,Uttar Pradesh,Electronics,Monitor,6,14500,10200,0.1,Retail Partner,Corporate
+ORD0018,2025-03-10,South,Karnataka,Furniture,Storage Cabinet,3,7800,4900,0,Online,Consumer
+ORD0019,2025-08-21,West,Gujarat,Furniture,Office Chair,8,9800,6200,0.1,Direct Sales,Small Business
+ORD0020,2026-01-05,East,West Bengal,Electronics,Laptop,5,65000,48500,0,Retail Partner,Corporate
+ORD0021,2026-06-16,West,Maharashtra,Office Supplies,Printer Paper,2,520,310,0.1,Online,Consumer
+ORD0022,2025-05-27,North,Uttar Pradesh,Electronics,Monitor,7,14500,10200,0,Direct Sales,Small Business
+ORD0023,2025-10-11,South,Karnataka,Furniture,Storage Cabinet,4,7800,4900,0.1,Retail Partner,Corporate
+ORD0024,2026-03-22,West,Gujarat,Furniture,Office Chair,1,9800,6200,0,Online,Consumer
+ORD0025,2025-02-06,East,West Bengal,Electronics,Laptop,6,65000,48500,0.1,Direct Sales,Small Business
+ORD0026,2025-07-17,South,Tamil Nadu,Office Supplies,Printer Paper,3,520,310,0,Retail Partner,Corporate
+ORD0027,2026-01-01,North,Delhi,Electronics,Monitor,8,14500,10200,0.1,Online,Consumer
+ORD0028,2026-06-12,South,Karnataka,Furniture,Storage Cabinet,5,7800,4900,0,Direct Sales,Small Business
+ORD0029,2025-05-23,West,Gujarat,Furniture,Office Chair,2,9800,6200,0.1,Retail Partner,Corporate
+ORD0030,2025-10-07,East,West Bengal,Electronics,Laptop,7,65000,48500,0,Online,Consumer
+ORD0031,2026-03-18,South,Tamil Nadu,Office Supplies,Printer Paper,4,520,310,0.1,Direct Sales,Small Business
+ORD0032,2025-02-02,North,Delhi,Electronics,Monitor,1,14500,10200,0,Retail Partner,Corporate
+ORD0033,2025-07-13,East,Odisha,Furniture,Storage Cabinet,6,7800,4900,0.1,Online,Consumer
+ORD0034,2025-12-24,West,Maharashtra,Furniture,Office Chair,3,9800,6200,0,Direct Sales,Small Business
+ORD0035,2026-05-08,East,West Bengal,Electronics,Laptop,8,65000,48500,0.1,Retail Partner,Corporate
+ORD0036,2025-05-19,South,Tamil Nadu,Office Supplies,Printer Paper,5,520,310,0,Online,Consumer
+ORD0037,2025-10-03,North,Delhi,Electronics,Monitor,2,14500,10200,0.1,Direct Sales,Small Business
+ORD0038,2026-03-14,East,Odisha,Furniture,Storage Cabinet,7,7800,4900,0,Retail Partner,Corporate
+ORD0039,2025-02-25,West,Maharashtra,Furniture,Office Chair,4,9800,6200,0.1,Online,Consumer
+ORD0040,2025-07-09,North,Uttar Pradesh,Electronics,Laptop,1,65000,48500,0,Direct Sales,Small Business
+ORD0041,2025-12-20,South,Karnataka,Office Supplies,Printer Paper,6,520,310,0.1,Retail Partner,Corporate
+ORD0042,2026-05-04,North,Delhi,Electronics,Monitor,3,14500,10200,0,Online,Consumer
+ORD0043,2025-04-15,East,Odisha,Furniture,Storage Cabinet,8,7800,4900,0.1,Direct Sales,Small Business
+ORD0044,2025-09-26,West,Maharashtra,Furniture,Office Chair,5,9800,6200,0,Retail Partner,Corporate
+ORD0045,2026-03-10,North,Uttar Pradesh,Electronics,Laptop,2,65000,48500,0.1,Online,Consumer
+ORD0046,2025-02-21,South,Karnataka,Office Supplies,Printer Paper,7,520,310,0,Direct Sales,Small Business
+ORD0047,2025-07-05,West,Gujarat,Electronics,Monitor,4,14500,10200,0.1,Retail Partner,Corporate
+ORD0048,2025-12-16,East,West Bengal,Furniture,Storage Cabinet,1,7800,4900,0,Online,Consumer
+ORD0049,2026-05-27,West,Maharashtra,Furniture,Office Chair,6,9800,6200,0.1,Direct Sales,Small Business
+ORD0050,2025-04-11,North,Uttar Pradesh,Electronics,Laptop,3,65000,48500,0,Retail Partner,Corporate
+ORD0051,2025-09-22,South,Karnataka,Office Supplies,Printer Paper,8,520,310,0.1,Online,Consumer
+ORD0052,2026-02-06,West,Gujarat,Electronics,Monitor,5,14500,10200,0,Direct Sales,Small Business
+ORD0053,2025-01-17,East,West Bengal,Furniture,Storage Cabinet,2,7800,4900,0.1,Retail Partner,Corporate
+ORD0054,2025-07-01,South,Tamil Nadu,Furniture,Office Chair,7,9800,6200,0,Online,Consumer
+ORD0055,2025-12-12,North,Delhi,Electronics,Laptop,4,65000,48500,0.1,Direct Sales,Small Business
+ORD0056,2026-05-23,South,Karnataka,Office Supplies,Printer Paper,1,520,310,0,Retail Partner,Corporate
+ORD0057,2025-04-07,West,Gujarat,Electronics,Monitor,6,14500,10200,0.1,Online,Consumer
+ORD0058,2025-09-18,East,West Bengal,Furniture,Storage Cabinet,3,7800,4900,0,Direct Sales,Small Business
+ORD0059,2026-02-02,South,Tamil Nadu,Furniture,Office Chair,8,9800,6200,0.1,Retail Partner,Corporate
+ORD0060,2025-01-13,North,Delhi,Electronics,Laptop,5,65000,48500,0,Online,Consumer
+ORD0061,2025-06-24,East,Odisha,Office Supplies,Printer Paper,2,520,310,0.1,Direct Sales,Small Business
+ORD0062,2025-11-08,West,Maharashtra,Electronics,Monitor,7,14500,10200,0,Retail Partner,Corporate
+ORD0063,2026-05-19,East,West Bengal,Furniture,Storage Cabinet,4,7800,4900,0.1,Online,Consumer
+ORD0064,2025-04-03,South,Tamil Nadu,Furniture,Office Chair,1,9800,6200,0,Direct Sales,Small Business
+ORD0065,2025-09-14,North,Delhi,Electronics,Laptop,6,65000,48500,0.1,Retail Partner,Corporate
+ORD0066,2026-02-25,East,Odisha,Office Supplies,Printer Paper,3,520,310,0,Online,Consumer
+ORD0067,2025-01-09,West,Maharashtra,Electronics,Monitor,8,14500,10200,0.1,Direct Sales,Small Business
+ORD0068,2025-06-20,North,Uttar Pradesh,Furniture,Storage Cabinet,5,7800,4900,0,Retail Partner,Corporate
+ORD0069,2025-11-04,South,Karnataka,Furniture,Office Chair,2,9800,6200,0.1,Online,Consumer
+ORD0070,2026-04-15,North,Delhi,Electronics,Laptop,7,65000,48500,0,Direct Sales,Small Business
+ORD0071,2025-03-26,East,Odisha,Office Supplies,Printer Paper,4,520,310,0.1,Retail Partner,Corporate
+ORD0072,2025-09-10,West,Maharashtra,Electronics,Monitor,1,14500,10200,0,Online,Consumer
+ORD0073,2026-02-21,North,Uttar Pradesh,Furniture,Storage Cabinet,6,7800,4900,0.1,Direct Sales,Small Business
+ORD0074,2025-01-05,South,Karnataka,Furniture,Office Chair,3,9800,6200,0,Retail Partner,Corporate
+ORD0075,2025-06-16,West,Gujarat,Electronics,Laptop,8,65000,48500,0.1,Online,Consumer
+ORD0076,2025-11-27,East,West Bengal,Office Supplies,Printer Paper,5,520,310,0,Direct Sales,Small Business
+ORD0077,2026-04-11,West,Maharashtra,Electronics,Monitor,2,14500,10200,0.1,Retail Partner,Corporate
+ORD0078,2025-03-22,North,Uttar Pradesh,Furniture,Storage Cabinet,7,7800,4900,0,Online,Consumer
+ORD0079,2025-08-06,South,Karnataka,Furniture,Office Chair,4,9800,6200,0.1,Direct Sales,Small Business
+ORD0080,2026-01-17,West,Gujarat,Electronics,Laptop,1,65000,48500,0,Retail Partner,Corporate
+ORD0081,2025-01-01,East,West Bengal,Office Supplies,Printer Paper,6,520,310,0.1,Online,Consumer
+ORD0082,2025-06-12,South,Tamil Nadu,Electronics,Monitor,3,14500,10200,0,Direct Sales,Small Business
+ORD0083,2025-11-23,North,Delhi,Furniture,Storage Cabinet,8,7800,4900,0.1,Retail Partner,Corporate
+ORD0084,2026-04-07,South,Karnataka,Furniture,Office Chair,5,9800,6200,0,Online,Consumer
+ORD0085,2025-03-18,West,Gujarat,Electronics,Laptop,2,65000,48500,0.1,Direct Sales,Small Business
+ORD0086,2025-08-02,East,West Bengal,Office Supplies,Printer Paper,7,520,310,0,Retail Partner,Corporate
+ORD0087,2026-01-13,South,Tamil Nadu,Electronics,Monitor,4,14500,10200,0.1,Online,Consumer
+ORD0088,2026-06-24,North,Delhi,Furniture,Storage Cabinet,1,7800,4900,0,Direct Sales,Small Business
+ORD0089,2025-05-08,East,Odisha,Furniture,Office Chair,6,9800,6200,0.1,Retail Partner,Corporate
+ORD0090,2025-11-19,West,Maharashtra,Electronics,Laptop,3,65000,48500,0,Online,Consumer
+ORD0091,2026-04-03,East,West Bengal,Office Supplies,Printer Paper,8,520,310,0.1,Direct Sales,Small Business
+ORD0092,2025-03-14,South,Tamil Nadu,Electronics,Monitor,5,14500,10200,0,Retail Partner,Corporate
+ORD0093,2025-08-25,North,Delhi,Furniture,Storage Cabinet,2,7800,4900,0.1,Online,Consumer
+ORD0094,2026-01-09,East,Odisha,Furniture,Office Chair,7,9800,6200,0,Direct Sales,Small Business
+ORD0095,2026-06-20,West,Maharashtra,Electronics,Laptop,4,65000,48500,0.1,Retail Partner,Corporate
+ORD0096,2025-05-04,North,Uttar Pradesh,Office Supplies,Printer Paper,1,520,310,0,Online,Consumer
+ORD0097,2025-10-15,South,Karnataka,Electronics,Monitor,6,14500,10200,0.1,Direct Sales,Small Business
+ORD0098,2026-03-26,North,Delhi,Furniture,Storage Cabinet,3,7800,4900,0,Retail Partner,Corporate
+ORD0099,2025-03-10,East,Odisha,Furniture,Office Chair,8,9800,6200,0.1,Online,Consumer
+ORD0100,2025-08-21,West,Maharashtra,Electronics,Laptop,5,65000,48500,0,Direct Sales,Small Business
+ORD0101,2026-01-05,North,Uttar Pradesh,Office Supplies,Printer Paper,2,520,310,0.1,Retail Partner,Corporate
+ORD0102,2026-06-16,South,Karnataka,Electronics,Monitor,7,14500,10200,0,Online,Consumer
+ORD0103,2025-05-27,West,Gujarat,Furniture,Storage Cabinet,4,7800,4900,0.1,Direct Sales,Small Business
+ORD0104,2025-10-11,East,West Bengal,Furniture,Office Chair,1,9800,6200,0,Retail Partner,Corporate
+ORD0105,2026-03-22,West,Maharashtra,Electronics,Laptop,6,65000,48500,0.1,Online,Consumer
+ORD0106,2025-02-06,North,Uttar Pradesh,Office Supplies,Printer Paper,3,520,310,0,Direct Sales,Small Business
+ORD0107,2025-07-17,South,Karnataka,Electronics,Monitor,8,14500,10200,0.1,Retail Partner,Corporate
+ORD0108,2026-01-01,West,Gujarat,Furniture,Storage Cabinet,5,7800,4900,0,Online,Consumer
+ORD0109,2026-06-12,East,West Bengal,Furniture,Office Chair,2,9800,6200,0.1,Direct Sales,Small Business
+ORD0110,2025-05-23,South,Tamil Nadu,Electronics,Laptop,7,65000,48500,0,Retail Partner,Corporate
+ORD0111,2025-10-07,North,Delhi,Office Supplies,Printer Paper,4,520,310,0.1,Online,Consumer
+ORD0112,2026-03-18,South,Karnataka,Electronics,Monitor,1,14500,10200,0,Direct Sales,Small Business
+ORD0113,2025-02-02,West,Gujarat,Furniture,Storage Cabinet,6,7800,4900,0.1,Retail Partner,Corporate
+ORD0114,2025-07-13,East,West Bengal,Furniture,Office Chair,3,9800,6200,0,Online,Consumer
+ORD0115,2025-12-24,South,Tamil Nadu,Electronics,Laptop,8,65000,48500,0.1,Direct Sales,Small Business
+ORD0116,2026-05-08,North,Delhi,Office Supplies,Printer Paper,5,520,310,0,Retail Partner,Corporate
+ORD0117,2025-05-19,East,Odisha,Electronics,Monitor,2,14500,10200,0.1,Online,Consumer
+ORD0118,2025-10-03,West,Maharashtra,Furniture,Storage Cabinet,7,7800,4900,0,Direct Sales,Small Business
+ORD0119,2026-03-14,East,West Bengal,Furniture,Office Chair,4,9800,6200,0.1,Retail Partner,Corporate
+ORD0120,2025-02-25,South,Tamil Nadu,Electronics,Laptop,1,65000,48500,0,Online,Consumer
