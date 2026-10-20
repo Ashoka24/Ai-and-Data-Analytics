@@ -24,7 +24,7 @@ def load_data():
 
 def validate_data(encounters: pd.DataFrame, labs: pd.DataFrame) -> list[str]:
     errors = []
-    required_enc = {"EncounterID", "PatientID", "EncounterDate", "Department", "AdmissionType", "AgeBand", "Sex", "LengthOfStayDays", "ICUFlag", "Readmitted30Days", "DischargeDisposition", "PrimaryDiagnosisGroup", "PayerGroup", "TotalCostUSD"}
+    required_enc = {"EncounterID", "PatientID", "EncounterDate", "Department", "AdmissionType", "AgeBand", "Sex", "LengthOfStayDays", "ICUFlag", "SimulatedReadmissionFlag", "DischargeDisposition", "PrimaryDiagnosisGroup", "PayerGroup", "TotalCostUSD"}
     required_labs = {"EncounterID", "LabTest", "Result", "Unit", "ReferenceLow", "ReferenceHigh", "AbnormalFlag", "CollectedDate"}
     if not required_enc.issubset(encounters.columns):
         errors.append(f"Encounter columns missing: {sorted(required_enc - set(encounters.columns))}")
@@ -40,7 +40,7 @@ def validate_data(encounters: pd.DataFrame, labs: pd.DataFrame) -> list[str]:
         errors.append("LengthOfStayDays cannot be negative.")
     if (encounters["TotalCostUSD"] < 0).any():
         errors.append("TotalCostUSD cannot be negative.")
-    for col in ["ICUFlag", "Readmitted30Days"]:
+    for col in ["ICUFlag", "SimulatedReadmissionFlag"]:
         if not set(encounters[col].dropna().unique()).issubset({0, 1}):
             errors.append(f"{col} must contain only 0/1 values.")
     if set(labs["EncounterID"]) - set(encounters["EncounterID"]):
@@ -93,7 +93,7 @@ def build_summaries(encounters: pd.DataFrame, labs: pd.DataFrame) -> dict:
 
     monthly = e.groupby("Month", as_index=False).agg(
         Encounters=("EncounterID", "nunique"), UniquePatients=("PatientID", "nunique"),
-        MeanLOS=("LengthOfStayDays", "mean"), Readmissions30D=("Readmitted30Days", "sum"),
+        MeanLOS=("LengthOfStayDays", "mean"), Readmissions30D=("SimulatedReadmissionFlag", "sum"),
         ICUEncounters=("ICUFlag", "sum"), TotalCostUSD=("TotalCostUSD", "sum"),
         ExpiredDischarges=("DischargeDisposition", lambda s: (s == "Expired").sum()))
     monthly["ReadmissionRatePct"] = (monthly["Readmissions30D"] / monthly["Encounters"] * 100).round(2)
@@ -104,7 +104,7 @@ def build_summaries(encounters: pd.DataFrame, labs: pd.DataFrame) -> dict:
         Encounters=("EncounterID", "nunique"), UniquePatients=("PatientID", "nunique"),
         MeanLOS=("LengthOfStayDays", "mean"), MedianLOS=("LengthOfStayDays", "median"),
         MeanCostUSD=("TotalCostUSD", "mean"), TotalCostUSD=("TotalCostUSD", "sum"),
-        Readmissions30D=("Readmitted30Days", "sum"), ICUEncounters=("ICUFlag", "sum"))
+        Readmissions30D=("SimulatedReadmissionFlag", "sum"), ICUEncounters=("ICUFlag", "sum"))
     department["ReadmissionRatePct"] = (department["Readmissions30D"] / department["Encounters"] * 100).round(2)
     department["ICURatePct"] = (department["ICUEncounters"] / department["Encounters"] * 100).round(2)
     department.to_csv(OUTPUT / "department_summary.csv", index=False, float_format="%.3f")
@@ -117,7 +117,7 @@ def build_summaries(encounters: pd.DataFrame, labs: pd.DataFrame) -> dict:
     lab_summary.to_csv(OUTPUT / "lab_summary.csv", index=False, float_format="%.3f")
 
     tests = {}
-    groups = [g["LengthOfStayDays"].dropna().to_numpy() for _, g in e.groupby("Readmitted30Days")]
+    groups = [g["LengthOfStayDays"].dropna().to_numpy() for _, g in e.groupby("SimulatedReadmissionFlag")]
     if len(groups) == 2 and all(len(g) > 1 for g in groups):
         t = stats.ttest_ind(groups[0], groups[1], equal_var=False, nan_policy="omit")
         tests["welch_t_test_length_of_stay_by_readmission_flag"] = {
@@ -126,7 +126,7 @@ def build_summaries(encounters: pd.DataFrame, labs: pd.DataFrame) -> dict:
             "t_statistic": round(float(t.statistic), 5), "p_value": round(float(t.pvalue), 8),
             "interpretation_note": "Exploratory comparison on simulated data; not causal or clinically validated."
         }
-    contingency = pd.crosstab(e["Department"], e["Readmitted30Days"])
+    contingency = pd.crosstab(e["Department"], e["SimulatedReadmissionFlag"])
     if contingency.shape[0] > 1 and contingency.shape[1] > 1:
         chi = stats.chi2_contingency(contingency)
         tests["chi_square_department_by_readmission_flag"] = {
@@ -137,7 +137,7 @@ def build_summaries(encounters: pd.DataFrame, labs: pd.DataFrame) -> dict:
         }
     (OUTPUT / "statistical_tests.json").write_text(json.dumps(tests, indent=2), encoding="utf-8")
 
-    numeric = e[["LengthOfStayDays", "TotalCostUSD", "ICUFlag", "Readmitted30Days"]].corr(numeric_only=True)
+    numeric = e[["LengthOfStayDays", "TotalCostUSD", "ICUFlag", "SimulatedReadmissionFlag"]].corr(numeric_only=True)
     numeric.to_csv(OUTPUT / "numeric_correlations.csv", float_format="%.4f")
 
     # Figures are saved for the repository report, not treated as clinical evidence.
@@ -162,7 +162,7 @@ def build_summaries(encounters: pd.DataFrame, labs: pd.DataFrame) -> dict:
         "unique_patients": int(e["PatientID"].nunique()),
         "mean_length_of_stay_days": round(float(e["LengthOfStayDays"].mean()), 2),
         "median_length_of_stay_days": round(float(e["LengthOfStayDays"].median()), 2),
-        "readmission_30d_rate_pct": round(float(e["Readmitted30Days"].mean() * 100), 2),
+        "readmission_30d_rate_pct": round(float(e["SimulatedReadmissionFlag"].mean() * 100), 2),
         "icu_encounter_rate_pct": round(float(e["ICUFlag"].mean() * 100), 2),
         "lab_results": int(len(labs)),
         "lab_abnormal_rate_pct": round(float(labs["AbnormalFlag"].mean() * 100), 2),
