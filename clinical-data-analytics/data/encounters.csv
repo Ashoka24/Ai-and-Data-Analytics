@@ -1,0 +1,621 @@
+EncounterID,PatientID,EncounterDate,Department,AdmissionType,AgeBand,Sex,LengthOfStayDays,ICUFlag,Readmitted30Days,DischargeDisposition,PrimaryDiagnosisGroup,PayerGroup,TotalCostUSD
+E00001,P00001,2024-01-01,Emergency,Emergency,18-29,Female,1,1,1,Expired,Cardiovascular,Public,9900
+E00002,P00001,2024-01-14,Neurology,Observation,45-59,Not recorded,0,0,0,Home,Respiratory,Other,1187
+E00003,P00002,2024-01-27,General Medicine,Urgent,75+,Male,2,0,0,Home,Oncology,Self-pay,4024
+E00004,P00003,2024-02-09,Cardiology,Elective,30-44,Female,1,0,0,Home,Infection,Self-pay,3111
+E00005,P00003,2024-02-22,Pulmonology,Emergency,60-74,Not recorded,3,0,0,Home,Musculoskeletal,Private,5948
+E00006,P00004,2024-03-06,Orthopedics,Observation,18-29,Not recorded,2,0,0,Home,Other,Public,5035
+E00007,P00005,2024-03-19,Oncology,Urgent,45-59,Male,2,0,0,Home,Diabetes/Endocrine,Public,5372
+E00008,P00005,2024-04-04,Emergency,Elective,75+,Female,4,1,0,Home,Neurological,Other,16009
+E00009,P00006,2024-04-17,Neurology,Emergency,30-44,Not recorded,4,0,0,Home,Cardiovascular,Self-pay,8546
+E00010,P00007,2024-04-30,General Medicine,Emergency,60-74,Male,1,0,1,Home,Respiratory,Self-pay,5133
+E00011,P00008,2024-05-13,Cardiology,Observation,18-29,Male,0,0,0,Home,Oncology,Private,1020
+E00012,P00008,2024-05-26,Emergency,Urgent,45-59,Female,1,0,0,Home,Infection,Public,2607
+E00013,P00009,2024-06-08,Neurology,Elective,75+,Not recorded,2,0,0,Home,Musculoskeletal,Public,4194
+E00014,P00010,2024-06-21,General Medicine,Emergency,45-59,Male,3,0,0,Home health,Other,Other,5781
+E00015,P00010,2024-07-07,Cardiology,Observation,75+,Female,3,1,0,Home,Diabetes/Endocrine,Self-pay,13918
+E00016,P00011,2024-07-20,Pulmonology,Urgent,30-44,Female,2,0,0,Home,Neurological,Self-pay,5205
+E00017,P00012,2024-08-02,Orthopedics,Elective,60-74,Not recorded,3,0,0,Home,Cardiovascular,Private,6792
+E00018,P00013,2024-08-15,Oncology,Emergency,18-29,Male,1,0,0,Home,Musculoskeletal,Public,4629
+E00019,P00013,2024-08-28,Emergency,Emergency,45-59,Female,1,0,1,Home,Other,Public,4966
+E00020,P00014,2024-09-10,Neurology,Observation,75+,Not recorded,2,0,0,Home,Diabetes/Endocrine,Other,3353
+E00021,P00015,2024-09-23,General Medicine,Urgent,30-44,Not recorded,1,0,0,Home,Neurological,Self-pay,2440
+E00022,P00015,2024-10-09,Cardiology,Elective,60-74,Male,1,0,0,Home,Cardiovascular,Self-pay,2777
+E00023,P00016,2024-10-22,Emergency,Emergency,18-29,Female,3,0,0,Home,Respiratory,Private,5614
+E00024,P00017,2024-11-04,Neurology,Observation,45-59,Not recorded,2,1,0,Home,Oncology,Public,12501
+E00025,P00018,2024-11-17,General Medicine,Urgent,75+,Male,4,0,0,Home,Infection,Public,7538
+E00026,P00018,2024-11-30,Cardiology,Elective,30-44,Male,3,0,0,Home,Musculoskeletal,Other,6625
+E00027,P00019,2024-12-13,Pulmonology,Emergency,75+,Female,3,0,0,Home health,Other,Self-pay,6962
+E00028,P00020,2024-12-26,Orthopedics,Emergency,30-44,Not recorded,2,0,1,Home,Diabetes/Endocrine,Self-pay,6049
+E00029,P00020,2025-01-11,Oncology,Observation,60-74,Male,1,0,0,Home,Neurological,Private,5136
+E00030,P00021,2025-01-24,Emergency,Urgent,18-29,Female,1,0,0,Transfer,Cardiovascular,Public,2273
+E00031,P00022,2025-02-06,Neurology,Elective,45-59,Female,1,0,0,Home,Respiratory,Public,2610
+E00032,P00023,2025-02-19,General Medicine,Emergency,75+,Not recorded,5,0,0,Home,Oncology,Other,7947
+E00033,P00023,2025-03-04,Cardiology,Observation,30-44,Male,2,0,0,Home,Infection,Self-pay,4534
+E00034,P00024,2025-03-17,Emergency,Urgent,60-74,Female,3,0,0,Home,Musculoskeletal,Self-pay,6121
+E00035,P00025,2025-03-30,Neurology,Elective,18-29,Not recorded,0,0,0,Home,Cardiovascular,Private,2708
+E00036,P00025,2025-04-15,General Medicine,Emergency,45-59,Not recorded,1,0,0,Home,Respiratory,Public,4295
+E00037,P00026,2025-04-28,Cardiology,Emergency,75+,Male,3,0,1,Home,Oncology,Public,7132
+E00038,P00027,2025-05-11,Pulmonology,Observation,30-44,Female,1,0,0,Home,Infection,Other,4969
+E00039,P00027,2025-05-24,Orthopedics,Urgent,60-74,Not recorded,1,0,0,Home,Musculoskeletal,Self-pay,2106
+E00040,P00028,2025-06-06,Oncology,Elective,30-44,Male,2,0,0,Home health,Other,Self-pay,3693
+E00041,P00029,2025-06-19,Emergency,Emergency,60-74,Male,3,0,0,Home,Diabetes/Endocrine,Private,5280
+E00042,P00030,2025-07-02,Neurology,Observation,18-29,Female,2,0,0,Home,Neurological,Public,4367
+E00043,P00030,2025-07-18,General Medicine,Urgent,45-59,Not recorded,3,0,0,Home,Cardiovascular,Public,5954
+E00044,P00031,2025-07-31,Cardiology,Elective,75+,Male,1,0,0,Home,Respiratory,Other,3791
+E00045,P00032,2025-08-13,Emergency,Emergency,30-44,Female,2,0,0,Home,Oncology,Self-pay,5378
+E00046,P00032,2025-08-26,Neurology,Emergency,60-74,Female,2,0,1,Home,Infection,Self-pay,5715
+E00047,P00033,2025-09-08,General Medicine,Observation,18-29,Not recorded,1,1,0,Home,Musculoskeletal,Private,12602
+E00048,P00034,2025-09-21,Cardiology,Urgent,45-59,Male,1,0,0,Expired,Other,Public,5139
+E00049,P00035,2025-10-04,Pulmonology,Elective,75+,Female,3,0,0,Home,Diabetes/Endocrine,Public,4776
+E00050,P00035,2025-10-20,Orthopedics,Emergency,30-44,Not recorded,4,0,0,Home,Neurological,Other,6363
+E00051,P00036,2025-11-02,Oncology,Observation,60-74,Not recorded,3,0,0,Home,Cardiovascular,Self-pay,5450
+E00052,P00037,2025-11-15,Emergency,Urgent,18-29,Male,0,0,0,Home,Musculoskeletal,Self-pay,2037
+E00053,P00037,2025-11-28,Neurology,Elective,60-74,Female,0,0,0,Home health,Other,Private,2374
+E00054,P00038,2024-01-11,General Medicine,Emergency,18-29,Not recorded,2,0,0,Home,Diabetes/Endocrine,Public,5211
+E00055,P00039,2024-01-24,Cardiology,Emergency,45-59,Male,2,0,1,Home,Neurological,Public,5548
+E00056,P00040,2024-02-06,Emergency,Observation,75+,Male,3,0,1,Home,Cardiovascular,Other,7135
+E00057,P00040,2024-02-22,Neurology,Urgent,30-44,Female,2,0,0,Home,Respiratory,Self-pay,6222
+E00058,P00041,2024-03-06,General Medicine,Elective,60-74,Not recorded,2,0,0,Home,Oncology,Self-pay,3359
+E00059,P00042,2024-03-19,Cardiology,Emergency,18-29,Male,4,0,0,Transfer,Infection,Private,6196
+E00060,P00042,2024-04-01,Pulmonology,Observation,45-59,Female,3,0,0,Home,Musculoskeletal,Public,5283
+E00061,P00043,2024-04-14,Orthopedics,Urgent,75+,Female,1,0,1,Home,Other,Public,3120
+E00062,P00044,2024-04-27,Oncology,Elective,30-44,Not recorded,0,0,0,Home,Diabetes/Endocrine,Other,2207
+E00063,P00045,2024-05-10,Emergency,Emergency,60-74,Male,2,0,0,Home,Neurological,Self-pay,5044
+E00064,P00045,2024-05-26,Neurology,Emergency,18-29,Female,2,0,1,Home,Cardiovascular,Self-pay,5381
+E00065,P00046,2024-06-08,General Medicine,Observation,45-59,Not recorded,1,0,0,Home,Respiratory,Private,4468
+E00066,P00047,2024-06-21,Cardiology,Urgent,18-29,Not recorded,2,0,0,Home health,Oncology,Public,6055
+E00067,P00047,2024-07-04,Emergency,Elective,45-59,Male,2,0,0,Home,Infection,Public,6392
+E00068,P00048,2024-07-17,Neurology,Emergency,75+,Female,5,0,0,Home,Musculoskeletal,Other,7279
+E00069,P00049,2024-07-30,General Medicine,Observation,30-44,Not recorded,0,0,0,Home,Cardiovascular,Self-pay,1366
+E00070,P00049,2024-08-12,Cardiology,Urgent,60-74,Male,0,1,0,Home,Respiratory,Self-pay,9503
+E00071,P00050,2024-08-28,Pulmonology,Elective,18-29,Male,0,0,0,Home,Oncology,Private,2040
+E00072,P00051,2024-09-10,Orthopedics,Emergency,45-59,Female,2,0,0,Home,Infection,Public,4877
+E00073,P00052,2024-09-23,Oncology,Emergency,75+,Not recorded,4,0,1,Home,Musculoskeletal,Public,7714
+E00074,P00052,2024-10-06,Emergency,Observation,30-44,Male,2,0,0,Home,Other,Other,5551
+E00075,P00053,2024-10-19,Neurology,Urgent,60-74,Female,2,0,0,Home,Diabetes/Endocrine,Self-pay,5888
+E00076,P00054,2024-11-01,General Medicine,Elective,18-29,Female,2,0,0,Home,Neurological,Self-pay,6225
+E00077,P00054,2024-11-14,Cardiology,Emergency,45-59,Not recorded,4,0,0,Home,Cardiovascular,Private,5862
+E00078,P00055,2024-11-30,Emergency,Observation,75+,Male,1,1,0,Home,Respiratory,Public,10249
+E00079,P00056,2024-12-13,Neurology,Urgent,45-59,Female,0,0,0,Home health,Oncology,Public,1536
+E00080,P00057,2024-12-26,General Medicine,Elective,75+,Not recorded,2,0,0,Home,Infection,Other,4373
+E00081,P00057,2025-01-08,Cardiology,Emergency,30-44,Not recorded,2,0,0,Home,Musculoskeletal,Self-pay,4710
+E00082,P00058,2025-01-21,Pulmonology,Emergency,60-74,Male,3,0,1,Home,Other,Self-pay,6297
+E00083,P00059,2025-02-03,Orthopedics,Observation,18-29,Female,2,0,0,Home,Diabetes/Endocrine,Private,5384
+E00084,P00059,2025-02-16,Oncology,Urgent,45-59,Not recorded,2,0,0,Home,Neurological,Public,5721
+E00085,P00060,2025-03-04,Emergency,Elective,75+,Male,4,1,0,Home,Cardiovascular,Public,16358
+E00086,P00061,2025-03-17,Neurology,Emergency,30-44,Male,1,0,0,Home,Musculoskeletal,Other,5145
+E00087,P00062,2025-03-30,General Medicine,Observation,60-74,Female,0,0,0,Home,Other,Self-pay,1032
+E00088,P00062,2025-04-12,Cardiology,Urgent,18-29,Not recorded,0,0,0,Transfer,Diabetes/Endocrine,Self-pay,1369
+E00089,P00063,2025-04-25,Emergency,Elective,45-59,Male,1,0,0,Home,Neurological,Private,2956
+E00090,P00064,2025-05-08,Neurology,Emergency,75+,Female,4,0,0,Home,Cardiovascular,Public,7043
+E00091,P00064,2025-05-21,General Medicine,Emergency,30-44,Female,3,0,1,Home,Respiratory,Public,6130
+E00092,P00065,2025-06-06,Cardiology,Observation,75+,Not recorded,3,1,0,Home health,Oncology,Other,14267
+E00093,P00066,2025-06-19,Pulmonology,Urgent,30-44,Male,2,1,0,Home,Infection,Self-pay,13354
+E00094,P00067,2025-07-02,Orthopedics,Elective,60-74,Female,3,0,0,Home,Musculoskeletal,Self-pay,7141
+E00095,P00067,2025-07-15,Oncology,Emergency,18-29,Not recorded,1,0,0,Expired,Other,Private,4978
+E00096,P00068,2025-07-28,Emergency,Observation,45-59,Not recorded,0,0,0,Home,Diabetes/Endocrine,Public,865
+E00097,P00069,2025-08-10,Neurology,Urgent,75+,Male,2,0,0,Home,Neurological,Public,3702
+E00098,P00069,2025-08-23,General Medicine,Elective,30-44,Female,1,0,0,Home,Cardiovascular,Other,2789
+E00099,P00070,2025-09-08,Cardiology,Emergency,60-74,Not recorded,3,0,0,Home,Respiratory,Self-pay,5626
+E00100,P00071,2025-09-21,Emergency,Emergency,18-29,Male,3,0,1,Home,Oncology,Self-pay,5963
+E00101,P00072,2025-10-04,Neurology,Observation,45-59,Male,2,0,0,Home,Infection,Private,5050
+E00102,P00072,2025-10-17,General Medicine,Urgent,75+,Female,4,0,0,Home,Musculoskeletal,Public,7887
+E00103,P00073,2025-10-30,Cardiology,Elective,30-44,Not recorded,0,0,0,Home,Cardiovascular,Public,3224
+E00104,P00074,2025-11-12,Pulmonology,Emergency,60-74,Male,1,0,0,Home,Respiratory,Other,4811
+E00105,P00074,2025-11-25,Orthopedics,Observation,30-44,Female,0,0,0,Home health,Oncology,Self-pay,3898
+E00106,P00075,2024-01-11,Oncology,Urgent,60-74,Female,1,0,0,Home,Infection,Self-pay,2285
+E00107,P00076,2024-01-24,Emergency,Elective,18-29,Not recorded,1,0,0,Home,Musculoskeletal,Private,2622
+E00108,P00076,2024-02-06,Neurology,Emergency,45-59,Male,3,0,0,Home,Other,Public,5459
+E00109,P00077,2024-02-19,General Medicine,Emergency,75+,Female,5,0,1,Skilled nursing,Diabetes/Endocrine,Public,8296
+E00110,P00078,2024-03-03,Cardiology,Observation,30-44,Not recorded,2,0,0,Home,Neurological,Other,4883
+E00111,P00079,2024-03-16,Emergency,Urgent,60-74,Not recorded,3,0,0,Home,Cardiovascular,Self-pay,6470
+E00112,P00079,2024-03-29,Neurology,Elective,18-29,Male,0,0,0,Home,Respiratory,Self-pay,3057
+E00113,P00080,2024-04-14,General Medicine,Emergency,45-59,Female,2,0,0,Home,Oncology,Private,5894
+E00114,P00081,2024-04-27,Cardiology,Observation,75+,Not recorded,2,0,0,Home,Infection,Public,6231
+E00115,P00081,2024-05-10,Pulmonology,Urgent,30-44,Male,1,0,0,Home,Musculoskeletal,Public,2118
+E00116,P00082,2024-05-23,Orthopedics,Elective,60-74,Male,1,1,0,Home,Other,Other,10255
+E00117,P00083,2024-06-05,Oncology,Emergency,18-29,Female,3,0,0,Transfer,Diabetes/Endocrine,Self-pay,5292
+E00118,P00084,2024-06-18,Emergency,Emergency,60-74,Not recorded,4,0,1,Home health,Neurological,Self-pay,6879
+E00119,P00084,2024-07-01,Neurology,Observation,18-29,Male,3,0,0,Home,Cardiovascular,Private,5966
+E00120,P00085,2024-07-17,General Medicine,Urgent,45-59,Female,0,0,0,Home,Musculoskeletal,Public,2553
+E00121,P00086,2024-07-30,Cardiology,Elective,75+,Female,1,0,1,Home,Other,Public,4140
+E00122,P00086,2024-08-12,Emergency,Emergency,30-44,Not recorded,2,0,0,Home,Diabetes/Endocrine,Other,5727
+E00123,P00087,2024-08-25,Neurology,Observation,60-74,Male,1,0,0,Home,Neurological,Self-pay,4814
+E00124,P00088,2024-09-07,General Medicine,Urgent,18-29,Female,1,0,0,Home,Cardiovascular,Self-pay,5151
+E00125,P00089,2024-09-20,Cardiology,Elective,45-59,Not recorded,2,0,0,Home,Respiratory,Private,3538
+E00126,P00089,2024-10-03,Pulmonology,Emergency,75+,Not recorded,5,0,1,Home,Oncology,Public,7625
+E00127,P00090,2024-10-19,Orthopedics,Emergency,30-44,Male,4,0,1,Home,Infection,Public,6712
+E00128,P00091,2024-11-01,Oncology,Observation,60-74,Female,3,0,0,Home,Musculoskeletal,Other,5799
+E00129,P00091,2024-11-14,Emergency,Urgent,18-29,Not recorded,0,0,0,Home,Other,Self-pay,2386
+E00130,P00092,2024-11-27,Neurology,Elective,45-59,Male,0,0,0,Home,Diabetes/Endocrine,Self-pay,2723
+E00131,P00093,2024-12-10,General Medicine,Emergency,18-29,Male,2,0,0,Home health,Neurological,Private,5560
+E00132,P00094,2024-12-23,Cardiology,Observation,45-59,Female,1,0,0,Home,Cardiovascular,Public,4647
+E00133,P00094,2025-01-05,Emergency,Urgent,75+,Not recorded,3,0,0,Home,Respiratory,Public,7484
+E00134,P00095,2025-01-21,Neurology,Elective,30-44,Male,2,0,0,Home,Oncology,Other,3371
+E00135,P00096,2025-02-03,General Medicine,Emergency,60-74,Female,4,0,0,Home,Infection,Self-pay,6208
+E00136,P00096,2025-02-16,Cardiology,Emergency,18-29,Female,4,0,1,Home,Musculoskeletal,Self-pay,6545
+E00137,P00097,2025-03-01,Pulmonology,Observation,45-59,Not recorded,0,0,0,Home,Cardiovascular,Private,1882
+E00138,P00098,2025-03-14,Orthopedics,Urgent,75+,Male,1,0,0,Home,Respiratory,Public,3469
+E00139,P00098,2025-03-27,Oncology,Elective,30-44,Female,0,1,0,Home,Oncology,Public,10356
+E00140,P00099,2025-04-09,Emergency,Emergency,60-74,Not recorded,2,0,0,Home,Infection,Other,5393
+E00141,P00100,2025-04-25,Neurology,Observation,18-29,Not recorded,1,0,0,Home,Musculoskeletal,Self-pay,4480
+E00142,P00101,2025-05-08,General Medicine,Urgent,45-59,Male,2,0,0,Expired,Other,Self-pay,6067
+E00143,P00101,2025-05-21,Cardiology,Elective,75+,Female,3,0,0,Home,Diabetes/Endocrine,Private,7654
+E00144,P00102,2025-06-03,Emergency,Emergency,45-59,Not recorded,4,0,0,Home health,Neurological,Public,6041
+E00145,P00103,2025-06-16,Neurology,Emergency,75+,Male,6,0,1,Skilled nursing,Cardiovascular,Public,8878
+E00146,P00103,2025-06-29,General Medicine,Observation,30-44,Male,0,0,0,Transfer,Respiratory,Other,1715
+E00147,P00104,2025-07-12,Cardiology,Urgent,60-74,Female,0,0,0,Home,Oncology,Self-pay,2052
+E00148,P00105,2025-07-28,Pulmonology,Elective,18-29,Not recorded,1,0,0,Home,Infection,Self-pay,3639
+E00149,P00106,2025-08-10,Orthopedics,Emergency,45-59,Male,2,0,0,Home,Musculoskeletal,Private,5226
+E00150,P00106,2025-08-23,Oncology,Observation,75+,Female,3,0,0,Home,Other,Public,6813
+E00151,P00107,2025-09-05,Emergency,Urgent,30-44,Female,2,0,0,Home,Diabetes/Endocrine,Public,5900
+E00152,P00108,2025-09-18,Neurology,Elective,60-74,Not recorded,2,0,0,Home,Neurological,Other,6237
+E00153,P00108,2025-10-01,General Medicine,Emergency,18-29,Male,4,0,0,Home,Cardiovascular,Self-pay,5874
+E00154,P00109,2025-10-14,Cardiology,Emergency,45-59,Female,1,0,1,Home,Musculoskeletal,Self-pay,2461
+E00155,P00110,2025-10-30,Emergency,Observation,75+,Not recorded,1,1,0,Home,Other,Private,10598
+E00156,P00111,2025-11-12,Neurology,Urgent,30-44,Not recorded,0,0,0,Home,Diabetes/Endocrine,Public,1885
+E00157,P00111,2025-11-25,General Medicine,Elective,75+,Male,2,0,0,Home health,Neurological,Public,4722
+E00158,P00112,2024-01-08,Cardiology,Emergency,30-44,Female,3,0,0,Home,Cardiovascular,Other,6309
+E00159,P00113,2024-01-21,Pulmonology,Observation,60-74,Not recorded,2,0,0,Home,Respiratory,Self-pay,5396
+E00160,P00113,2024-02-03,Orthopedics,Urgent,18-29,Male,2,0,0,Home,Oncology,Self-pay,5733
+E00161,P00114,2024-02-16,Oncology,Elective,45-59,Male,2,0,0,Home,Infection,Private,6070
+E00162,P00115,2024-03-03,Emergency,Emergency,75+,Female,6,1,0,Home,Musculoskeletal,Public,19207
+E00163,P00116,2024-03-16,Neurology,Emergency,30-44,Not recorded,1,0,1,Home,Other,Public,2294
+E00164,P00116,2024-03-29,General Medicine,Observation,60-74,Male,0,0,0,Home,Diabetes/Endocrine,Other,1381
+E00165,P00117,2024-04-11,Cardiology,Urgent,18-29,Female,1,0,0,Home,Neurological,Self-pay,2968
+E00166,P00118,2024-04-24,Emergency,Elective,45-59,Female,1,0,0,Home,Cardiovascular,Self-pay,3305
+E00167,P00118,2024-05-07,Neurology,Emergency,75+,Not recorded,4,0,0,Home,Respiratory,Private,7392
+E00168,P00119,2024-05-20,General Medicine,Observation,30-44,Male,2,0,0,Home,Oncology,Public,5229
+E00169,P00120,2024-06-05,Cardiology,Urgent,60-74,Female,2,0,0,Home,Infection,Public,5566
+E00170,P00120,2024-06-18,Pulmonology,Elective,30-44,Not recorded,3,0,0,Home health,Musculoskeletal,Other,7153
+E00171,P00121,2024-07-01,Orthopedics,Emergency,60-74,Not recorded,1,0,0,Home,Cardiovascular,Self-pay,4990
+E00172,P00122,2024-07-14,Oncology,Emergency,18-29,Male,1,0,1,Home,Respiratory,Self-pay,2127
+E00173,P00123,2024-07-27,Emergency,Observation,45-59,Female,0,0,0,Home,Oncology,Private,1214
+E00174,P00123,2024-08-09,Neurology,Urgent,75+,Not recorded,2,0,0,Home,Infection,Public,4051
+E00175,P00124,2024-08-22,General Medicine,Elective,30-44,Male,1,0,0,Transfer,Musculoskeletal,Public,3138
+E00176,P00125,2024-09-07,Cardiology,Emergency,60-74,Male,3,0,0,Home,Other,Other,5975
+E00177,P00125,2024-09-20,Emergency,Observation,18-29,Female,2,0,0,Home,Diabetes/Endocrine,Self-pay,5062
+E00178,P00126,2024-10-03,Neurology,Urgent,45-59,Not recorded,2,0,0,Home,Neurological,Self-pay,5399
+E00179,P00127,2024-10-16,General Medicine,Elective,75+,Male,4,0,0,Home,Cardiovascular,Private,8236
+E00180,P00128,2024-10-29,Cardiology,Emergency,30-44,Female,1,0,0,Home,Respiratory,Public,4823
+E00181,P00128,2024-11-11,Pulmonology,Emergency,60-74,Female,2,0,1,Home,Oncology,Public,6410
+E00182,P00129,2024-11-24,Orthopedics,Observation,18-29,Not recorded,1,0,0,Home,Infection,Other,2297
+E00183,P00130,2024-12-10,Oncology,Urgent,60-74,Male,1,0,0,Home health,Musculoskeletal,Self-pay,2634
+E00184,P00130,2024-12-23,Emergency,Elective,18-29,Female,1,0,0,Home,Other,Self-pay,2971
+E00185,P00131,2025-01-05,Neurology,Emergency,45-59,Not recorded,3,1,0,Home,Diabetes/Endocrine,Private,13608
+E00186,P00132,2025-01-18,General Medicine,Observation,75+,Not recorded,4,0,1,Home,Neurological,Public,7395
+E00187,P00133,2025-01-31,Cardiology,Urgent,30-44,Male,3,0,0,Home,Cardiovascular,Public,6482
+E00188,P00133,2025-02-13,Emergency,Elective,60-74,Female,0,0,0,Home,Musculoskeletal,Other,3069
+E00189,P00134,2025-02-26,Neurology,Emergency,18-29,Not recorded,1,0,0,Expired,Other,Self-pay,4656
+E00190,P00135,2025-03-14,General Medicine,Emergency,45-59,Male,2,0,1,Home,Diabetes/Endocrine,Self-pay,6243
+E00191,P00135,2025-03-27,Cardiology,Observation,75+,Male,2,0,1,Home,Neurological,Private,3380
+E00192,P00136,2025-04-09,Pulmonology,Urgent,30-44,Female,1,0,0,Home,Cardiovascular,Public,2467
+E00193,P00137,2025-04-22,Orthopedics,Elective,60-74,Not recorded,2,0,0,Home,Respiratory,Public,4054
+E00194,P00138,2025-05-05,Oncology,Emergency,18-29,Male,3,0,0,Home,Oncology,Other,5641
+E00195,P00138,2025-05-18,Emergency,Observation,45-59,Female,2,0,0,Home,Infection,Self-pay,4728
+E00196,P00139,2025-05-31,Neurology,Urgent,18-29,Female,3,0,0,Home health,Musculoskeletal,Self-pay,6315
+E00197,P00140,2025-06-16,General Medicine,Elective,45-59,Not recorded,0,0,0,Home,Other,Private,2902
+E00198,P00140,2025-06-29,Cardiology,Emergency,75+,Male,3,0,0,Home,Diabetes/Endocrine,Public,6989
+E00199,P00141,2025-07-12,Emergency,Emergency,30-44,Female,2,0,1,Home,Neurological,Public,6076
+E00200,P00142,2025-07-25,Neurology,Observation,60-74,Not recorded,1,0,0,Home,Cardiovascular,Other,5163
+E00201,P00143,2025-08-07,General Medicine,Urgent,18-29,Not recorded,1,0,0,Home,Respiratory,Self-pay,2300
+E00202,P00143,2025-08-20,Cardiology,Elective,45-59,Male,2,0,0,Home,Oncology,Self-pay,3887
+E00203,P00144,2025-09-02,Pulmonology,Emergency,75+,Female,5,0,0,Home,Infection,Private,7974
+E00204,P00145,2025-09-18,Orthopedics,Observation,30-44,Not recorded,3,0,0,Transfer,Musculoskeletal,Public,5811
+E00205,P00145,2025-10-01,Oncology,Urgent,60-74,Male,0,0,0,Home,Cardiovascular,Public,2398
+E00206,P00146,2025-10-14,Emergency,Elective,18-29,Male,0,0,0,Home,Respiratory,Other,2735
+E00207,P00147,2025-10-27,Neurology,Emergency,45-59,Female,2,0,0,Home,Oncology,Self-pay,5572
+E00208,P00147,2025-11-09,General Medicine,Emergency,75+,Not recorded,4,1,1,Home,Infection,Self-pay,16209
+E00209,P00148,2025-11-22,Cardiology,Observation,45-59,Male,1,0,0,Home health,Musculoskeletal,Private,4996
+E00210,P00149,2024-01-05,Emergency,Urgent,75+,Female,3,0,0,Home,Other,Public,4633
+E00211,P00150,2024-01-21,Neurology,Elective,30-44,Female,2,0,0,Home,Diabetes/Endocrine,Public,3720
+E00212,P00150,2024-02-03,General Medicine,Emergency,60-74,Not recorded,4,0,0,Home,Neurological,Other,6557
+E00213,P00151,2024-02-16,Cardiology,Observation,18-29,Male,3,0,0,Home,Cardiovascular,Self-pay,5644
+E00214,P00152,2024-02-29,Pulmonology,Urgent,45-59,Female,0,0,0,Home,Respiratory,Self-pay,2231
+E00215,P00152,2024-03-13,Orthopedics,Elective,75+,Not recorded,2,0,0,Home,Oncology,Private,5068
+E00216,P00153,2024-03-26,Oncology,Emergency,30-44,Not recorded,2,0,0,Home,Infection,Public,5405
+E00217,P00154,2024-04-08,Emergency,Emergency,60-74,Male,2,0,1,Home,Musculoskeletal,Public,5742
+E00218,P00155,2024-04-24,Neurology,Observation,18-29,Female,1,0,0,Home,Other,Other,4829
+E00219,P00155,2024-05-07,General Medicine,Urgent,45-59,Not recorded,2,0,0,Home,Diabetes/Endocrine,Self-pay,6416
+E00220,P00156,2024-05-20,Cardiology,Elective,75+,Male,4,0,0,Home,Neurological,Self-pay,6053
+E00221,P00157,2024-06-02,Emergency,Emergency,30-44,Male,4,0,0,Home,Cardiovascular,Private,6390
+E00222,P00157,2024-06-15,Neurology,Observation,75+,Female,1,0,0,Home health,Musculoskeletal,Public,2977
+E00223,P00158,2024-06-28,General Medicine,Urgent,30-44,Not recorded,0,0,0,Home,Other,Public,2064
+E00224,P00159,2024-07-11,Cardiology,Elective,60-74,Male,0,0,0,Home,Diabetes/Endocrine,Other,2401
+E00225,P00160,2024-07-27,Pulmonology,Emergency,18-29,Female,2,0,0,Home,Neurological,Self-pay,5238
+E00226,P00160,2024-08-09,Orthopedics,Emergency,45-59,Female,3,0,1,Home,Cardiovascular,Self-pay,6825
+E00227,P00161,2024-08-22,Oncology,Observation,75+,Not recorded,3,0,0,Home,Respiratory,Private,7162
+E00228,P00162,2024-09-04,Emergency,Urgent,30-44,Male,2,0,0,Home,Oncology,Public,6249
+E00229,P00162,2024-09-17,Neurology,Elective,60-74,Female,2,0,0,Home,Infection,Public,3386
+E00230,P00163,2024-09-30,General Medicine,Emergency,18-29,Not recorded,4,0,0,Home,Musculoskeletal,Other,6223
+E00231,P00164,2024-10-13,Cardiology,Observation,45-59,Not recorded,0,1,0,Home,Other,Self-pay,9360
+E00232,P00165,2024-10-29,Emergency,Urgent,75+,Male,2,1,0,Home,Diabetes/Endocrine,Self-pay,12197
+E00233,P00165,2024-11-11,Neurology,Elective,30-44,Female,1,0,0,Transfer,Neurological,Private,3484
+E00234,P00166,2024-11-24,General Medicine,Emergency,60-74,Not recorded,2,0,0,Home,Cardiovascular,Public,5071
+E00235,P00167,2024-12-07,Cardiology,Emergency,30-44,Male,3,0,1,Home health,Respiratory,Public,6658
+E00236,P00167,2024-12-20,Pulmonology,Observation,60-74,Male,2,0,0,Expired,Oncology,Other,5745
+E00237,P00168,2025-01-02,Orthopedics,Urgent,18-29,Female,2,0,0,Home,Infection,Self-pay,6082
+E00238,P00169,2025-01-15,Oncology,Elective,45-59,Not recorded,3,0,0,Home,Musculoskeletal,Self-pay,7669
+E00239,P00169,2025-01-31,Emergency,Emergency,75+,Male,2,1,0,Home,Cardiovascular,Private,11356
+E00240,P00170,2025-02-13,Neurology,Observation,30-44,Female,0,0,0,Home,Respiratory,Public,1393
+E00241,P00171,2025-02-26,General Medicine,Urgent,60-74,Female,0,0,0,Home,Oncology,Public,1730
+E00242,P00172,2025-03-11,Cardiology,Elective,18-29,Not recorded,1,0,0,Home,Infection,Other,3317
+E00243,P00172,2025-03-24,Emergency,Emergency,45-59,Male,3,0,0,Home,Musculoskeletal,Self-pay,6154
+E00244,P00173,2025-04-06,Neurology,Emergency,75+,Female,4,0,1,Home,Other,Self-pay,7741
+E00245,P00174,2025-04-19,General Medicine,Observation,30-44,Not recorded,2,0,0,Home,Diabetes/Endocrine,Private,5578
+E00246,P00174,2025-05-05,Cardiology,Urgent,60-74,Not recorded,2,0,0,Home,Neurological,Public,5915
+E00247,P00175,2025-05-18,Pulmonology,Elective,18-29,Male,3,0,0,Home,Cardiovascular,Public,7502
+E00248,P00176,2025-05-31,Orthopedics,Emergency,60-74,Female,1,0,0,Home health,Respiratory,Other,2139
+E00249,P00177,2025-06-13,Oncology,Observation,18-29,Not recorded,0,0,0,Home,Oncology,Self-pay,1226
+E00250,P00177,2025-06-26,Emergency,Urgent,45-59,Male,1,0,0,Home,Infection,Self-pay,2813
+E00251,P00178,2025-07-09,Neurology,Elective,75+,Male,2,0,1,Home,Musculoskeletal,Private,4400
+E00252,P00179,2025-07-22,General Medicine,Emergency,30-44,Female,3,0,0,Home,Other,Public,5987
+E00253,P00179,2025-08-07,Cardiology,Emergency,60-74,Not recorded,3,0,1,Home,Diabetes/Endocrine,Public,6324
+E00254,P00180,2025-08-20,Emergency,Observation,18-29,Male,2,1,0,Home,Neurological,Other,13211
+E00255,P00181,2025-09-02,Neurology,Urgent,45-59,Female,3,0,0,Home,Cardiovascular,Self-pay,6998
+E00256,P00182,2025-09-15,General Medicine,Elective,75+,Female,1,0,1,Home,Musculoskeletal,Self-pay,4835
+E00257,P00182,2025-09-28,Cardiology,Emergency,30-44,Not recorded,1,0,0,Home,Other,Private,5172
+E00258,P00183,2025-10-11,Pulmonology,Observation,60-74,Male,0,0,0,Home,Diabetes/Endocrine,Public,1059
+E00259,P00184,2025-10-24,Orthopedics,Urgent,18-29,Female,1,0,0,Home,Neurological,Public,2646
+E00260,P00184,2025-11-09,Oncology,Elective,45-59,Not recorded,1,0,0,Home,Cardiovascular,Other,2983
+E00261,P00185,2025-11-22,Emergency,Emergency,18-29,Not recorded,3,0,0,Home health,Respiratory,Self-pay,5820
+E00262,P00186,2024-01-05,Neurology,Emergency,45-59,Male,3,0,1,Transfer,Oncology,Self-pay,6157
+E00263,P00187,2024-01-18,General Medicine,Observation,75+,Female,4,0,0,Home,Infection,Private,7744
+E00264,P00187,2024-01-31,Cardiology,Urgent,30-44,Not recorded,3,0,0,Home,Musculoskeletal,Public,6831
+E00265,P00188,2024-02-13,Emergency,Elective,60-74,Male,0,0,0,Home,Other,Public,3418
+E00266,P00189,2024-02-26,Neurology,Emergency,18-29,Male,2,0,0,Home,Diabetes/Endocrine,Other,6255
+E00267,P00189,2024-03-13,General Medicine,Observation,45-59,Female,1,0,0,Home,Neurological,Self-pay,2142
+E00268,P00190,2024-03-26,Cardiology,Urgent,75+,Not recorded,2,0,0,Home,Cardiovascular,Self-pay,3729
+E00269,P00191,2024-04-08,Pulmonology,Elective,30-44,Male,1,0,0,Home,Respiratory,Private,2816
+E00270,P00191,2024-04-21,Orthopedics,Emergency,60-74,Female,3,0,0,Home,Oncology,Public,5653
+E00271,P00192,2024-05-04,Oncology,Emergency,18-29,Female,4,0,1,Home,Infection,Public,7240
+E00272,P00193,2024-05-17,Emergency,Observation,45-59,Not recorded,3,0,0,Home,Musculoskeletal,Other,6327
+E00273,P00194,2024-05-30,Neurology,Urgent,75+,Male,1,0,0,Home,Cardiovascular,Self-pay,4164
+E00274,P00194,2024-06-15,General Medicine,Elective,45-59,Female,0,0,0,Home health,Respiratory,Self-pay,3251
+E00275,P00195,2024-06-28,Cardiology,Emergency,75+,Not recorded,3,0,0,Home,Oncology,Private,7338
+E00276,P00196,2024-07-11,Emergency,Observation,30-44,Not recorded,1,0,0,Home,Infection,Public,5175
+E00277,P00196,2024-07-24,Neurology,Urgent,60-74,Male,1,1,0,Home,Musculoskeletal,Public,10112
+E00278,P00197,2024-08-06,General Medicine,Elective,18-29,Female,2,0,0,Home,Other,Other,3899
+E00279,P00198,2024-08-19,Cardiology,Emergency,45-59,Not recorded,3,0,0,Home,Diabetes/Endocrine,Self-pay,5486
+E00280,P00199,2024-09-01,Pulmonology,Emergency,75+,Male,5,0,1,Home,Neurological,Self-pay,8323
+E00281,P00199,2024-09-17,Orthopedics,Observation,30-44,Male,3,0,0,Home,Cardiovascular,Private,6160
+E00282,P00200,2024-09-30,Oncology,Urgent,60-74,Female,0,0,0,Home,Respiratory,Public,2747
+E00283,P00201,2024-10-13,Emergency,Elective,18-29,Not recorded,0,0,0,Expired,Oncology,Public,3084
+E00284,P00201,2024-10-26,Neurology,Emergency,45-59,Male,2,0,0,Home,Infection,Other,5921
+E00285,P00202,2024-11-08,General Medicine,Observation,75+,Female,2,0,0,Home,Musculoskeletal,Self-pay,6258
+E00286,P00203,2024-11-21,Cardiology,Urgent,30-44,Female,1,0,0,Home,Other,Self-pay,2145
+E00287,P00204,2024-12-04,Emergency,Elective,75+,Not recorded,3,0,0,Home health,Diabetes/Endocrine,Private,4982
+E00288,P00204,2024-12-20,Neurology,Emergency,30-44,Male,4,0,0,Home,Neurological,Public,6569
+E00289,P00205,2025-01-02,General Medicine,Emergency,60-74,Female,4,0,1,Home,Cardiovascular,Public,6906
+E00290,P00206,2025-01-15,Cardiology,Observation,18-29,Not recorded,0,0,0,Home,Musculoskeletal,Other,2243
+E00291,P00206,2025-01-28,Pulmonology,Urgent,45-59,Not recorded,0,0,0,Transfer,Other,Self-pay,2580
+E00292,P00207,2025-02-10,Orthopedics,Elective,75+,Male,2,0,0,Home,Diabetes/Endocrine,Self-pay,5417
+E00293,P00208,2025-02-23,Oncology,Emergency,30-44,Female,2,0,0,Home,Neurological,Private,5754
+E00294,P00209,2025-03-08,Emergency,Observation,60-74,Not recorded,1,0,0,Home,Cardiovascular,Public,4841
+E00295,P00209,2025-03-24,Neurology,Urgent,18-29,Male,2,0,0,Home,Respiratory,Public,6428
+E00296,P00210,2025-04-06,General Medicine,Elective,45-59,Male,2,0,0,Home,Oncology,Other,3565
+E00297,P00211,2025-04-19,Cardiology,Emergency,75+,Female,5,0,0,Skilled nursing,Infection,Self-pay,7652
+E00298,P00211,2025-05-02,Emergency,Emergency,30-44,Not recorded,4,0,1,Home,Musculoskeletal,Self-pay,6739
+E00299,P00212,2025-05-15,Neurology,Observation,60-74,Male,0,0,0,Home,Other,Private,2076
+E00300,P00213,2025-05-28,General Medicine,Urgent,30-44,Female,0,1,0,Home health,Diabetes/Endocrine,Public,10213
+E00301,P00214,2025-06-10,Cardiology,Elective,60-74,Female,1,0,0,Home,Neurological,Public,4000
+E00302,P00214,2025-06-26,Pulmonology,Emergency,18-29,Not recorded,2,0,0,Home,Cardiovascular,Other,5587
+E00303,P00215,2025-07-09,Orthopedics,Observation,45-59,Male,1,0,0,Home,Respiratory,Self-pay,4674
+E00304,P00216,2025-07-22,Oncology,Urgent,75+,Female,3,0,0,Home,Oncology,Self-pay,7511
+E00305,P00216,2025-08-04,Emergency,Elective,30-44,Not recorded,2,0,0,Home,Infection,Private,3398
+E00306,P00217,2025-08-17,Neurology,Emergency,60-74,Not recorded,4,0,0,Home,Musculoskeletal,Public,6235
+E00307,P00218,2025-08-30,General Medicine,Emergency,18-29,Male,1,0,1,Home,Cardiovascular,Public,2822
+E00308,P00218,2025-09-12,Cardiology,Observation,45-59,Female,0,0,0,Home,Respiratory,Other,1909
+E00309,P00219,2025-09-28,Emergency,Urgent,75+,Not recorded,2,1,0,Home,Oncology,Self-pay,12546
+E00310,P00220,2025-10-11,Neurology,Elective,30-44,Male,1,0,0,Home,Infection,Self-pay,3833
+E00311,P00221,2025-10-24,General Medicine,Emergency,60-74,Male,3,0,0,Home,Musculoskeletal,Private,6670
+E00312,P00221,2025-11-06,Cardiology,Observation,18-29,Female,2,0,0,Home,Other,Public,5757
+E00313,P00222,2025-11-19,Pulmonology,Urgent,60-74,Not recorded,2,0,0,Home health,Diabetes/Endocrine,Public,6094
+E00314,P00223,2024-01-02,Orthopedics,Elective,18-29,Male,2,0,0,Home,Neurological,Other,6431
+E00315,P00223,2024-01-15,Oncology,Emergency,45-59,Female,4,0,0,Home,Cardiovascular,Self-pay,6068
+E00316,P00224,2024-01-31,Emergency,Emergency,75+,Female,3,1,1,Home,Respiratory,Self-pay,12955
+E00317,P00225,2024-02-13,Neurology,Observation,30-44,Not recorded,0,0,0,Home,Oncology,Private,1742
+E00318,P00226,2024-02-26,General Medicine,Urgent,60-74,Male,1,0,0,Home,Infection,Public,3329
+E00319,P00226,2024-03-10,Cardiology,Elective,18-29,Female,1,0,0,Home,Musculoskeletal,Public,3666
+E00320,P00227,2024-03-23,Emergency,Emergency,45-59,Not recorded,3,0,0,Transfer,Other,Other,6503
+E00321,P00228,2024-04-05,Neurology,Observation,75+,Not recorded,3,0,1,Home,Diabetes/Endocrine,Self-pay,6840
+E00322,P00228,2024-04-18,General Medicine,Urgent,30-44,Male,2,0,0,Home,Neurological,Self-pay,5927
+E00323,P00229,2024-05-04,Cardiology,Elective,60-74,Female,3,1,0,Home,Cardiovascular,Private,15314
+E00324,P00230,2024-05-17,Pulmonology,Emergency,18-29,Not recorded,1,0,0,Home,Musculoskeletal,Public,2151
+E00325,P00231,2024-05-30,Orthopedics,Emergency,45-59,Male,1,0,1,Home,Other,Public,2488
+E00326,P00231,2024-06-12,Oncology,Observation,18-29,Male,0,0,0,Home health,Diabetes/Endocrine,Other,1575
+E00327,P00232,2024-06-25,Emergency,Urgent,45-59,Female,1,0,0,Home,Neurological,Self-pay,3162
+E00328,P00233,2024-07-08,Neurology,Elective,75+,Not recorded,3,0,0,Home,Cardiovascular,Self-pay,5999
+E00329,P00233,2024-07-21,General Medicine,Emergency,30-44,Male,3,0,0,Home,Respiratory,Private,6336
+E00330,P00234,2024-08-06,Cardiology,Observation,60-74,Female,2,0,0,Expired,Oncology,Public,5423
+E00331,P00235,2024-08-19,Emergency,Urgent,18-29,Female,2,0,0,Home,Infection,Public,5760
+E00332,P00236,2024-09-01,Neurology,Elective,45-59,Not recorded,3,0,0,Home,Musculoskeletal,Other,7347
+E00333,P00236,2024-09-14,General Medicine,Emergency,75+,Male,3,0,0,Home,Other,Self-pay,7684
+E00334,P00237,2024-09-27,Cardiology,Emergency,30-44,Female,2,0,1,Home,Diabetes/Endocrine,Self-pay,3571
+E00335,P00238,2024-10-10,Pulmonology,Observation,60-74,Not recorded,1,0,0,Home,Neurological,Private,2658
+E00336,P00238,2024-10-23,Orthopedics,Urgent,18-29,Not recorded,1,0,0,Home,Cardiovascular,Public,2995
+E00337,P00239,2024-11-08,Oncology,Elective,45-59,Male,1,0,0,Home,Respiratory,Public,3332
+E00338,P00240,2024-11-21,Emergency,Emergency,75+,Female,5,0,0,Home,Oncology,Other,8669
+E00339,P00240,2024-12-04,Neurology,Observation,45-59,Not recorded,2,0,0,Home health,Infection,Self-pay,5256
+E00340,P00241,2024-12-17,General Medicine,Urgent,75+,Male,4,0,0,Home,Musculoskeletal,Self-pay,8093
+E00341,P00242,2024-12-30,Cardiology,Elective,30-44,Male,0,0,0,Home,Cardiovascular,Private,3430
+E00342,P00243,2025-01-12,Emergency,Emergency,60-74,Female,1,0,0,Home,Respiratory,Public,5017
+E00343,P00243,2025-01-25,Neurology,Emergency,18-29,Not recorded,2,0,1,Home,Oncology,Public,3404
+E00344,P00244,2025-02-10,General Medicine,Observation,45-59,Male,1,0,0,Home,Infection,Other,2491
+E00345,P00245,2025-02-23,Cardiology,Urgent,75+,Female,3,0,0,Home,Musculoskeletal,Self-pay,5328
+E00346,P00245,2025-03-08,Pulmonology,Elective,30-44,Female,2,1,0,Home,Other,Self-pay,12215
+E00347,P00246,2025-03-21,Orthopedics,Emergency,60-74,Not recorded,3,0,0,Home,Diabetes/Endocrine,Private,6002
+E00348,P00247,2025-04-03,Oncology,Observation,18-29,Male,2,0,0,Home,Neurological,Public,5089
+E00349,P00248,2025-04-16,Emergency,Urgent,45-59,Female,3,0,0,Transfer,Cardiovascular,Public,6676
+E00350,P00248,2025-04-29,Neurology,Elective,75+,Not recorded,1,0,0,Home,Respiratory,Other,4513
+E00351,P00249,2025-05-15,General Medicine,Emergency,30-44,Not recorded,2,0,0,Home,Oncology,Self-pay,6100
+E00352,P00250,2025-05-28,Cardiology,Emergency,75+,Male,3,0,1,Home health,Infection,Self-pay,7687
+E00353,P00250,2025-06-10,Emergency,Observation,30-44,Female,1,0,0,Home,Musculoskeletal,Private,2324
+E00354,P00251,2025-06-23,Neurology,Urgent,60-74,Not recorded,1,0,0,Home,Other,Public,2661
+E00355,P00252,2025-07-06,General Medicine,Elective,18-29,Male,2,0,0,Home,Diabetes/Endocrine,Public,4248
+E00356,P00253,2025-07-19,Cardiology,Emergency,45-59,Male,4,0,0,Home,Neurological,Other,7085
+E00357,P00253,2025-08-01,Pulmonology,Observation,75+,Female,4,0,0,Home,Cardiovascular,Self-pay,7422
+E00358,P00254,2025-08-17,Orthopedics,Urgent,30-44,Not recorded,0,0,0,Home,Musculoskeletal,Self-pay,2759
+E00359,P00255,2025-08-30,Oncology,Elective,60-74,Male,0,0,0,Home,Other,Private,3096
+E00360,P00255,2025-09-12,Emergency,Emergency,18-29,Female,2,0,0,Home,Diabetes/Endocrine,Public,5933
+E00361,P00256,2025-09-25,Neurology,Emergency,45-59,Female,2,0,1,Home,Neurological,Public,6270
+E00362,P00257,2025-10-08,General Medicine,Observation,75+,Not recorded,3,0,0,Home,Cardiovascular,Other,4657
+E00363,P00258,2025-10-21,Cardiology,Urgent,30-44,Male,2,0,0,Home,Respiratory,Self-pay,3744
+E00364,P00258,2025-11-03,Emergency,Elective,60-74,Female,2,0,0,Home,Oncology,Self-pay,4081
+E00365,P00259,2025-11-19,Neurology,Emergency,30-44,Not recorded,4,0,0,Home health,Infection,Private,6918
+E00366,P00260,2024-01-02,General Medicine,Observation,60-74,Not recorded,3,0,0,Home,Musculoskeletal,Public,6005
+E00367,P00260,2024-01-15,Cardiology,Urgent,18-29,Male,0,0,0,Home,Other,Public,2592
+E00368,P00261,2024-01-28,Pulmonology,Elective,45-59,Female,0,0,0,Home,Diabetes/Endocrine,Other,2929
+E00369,P00262,2024-02-10,Orthopedics,Emergency,75+,Not recorded,3,1,0,Home,Neurological,Self-pay,14816
+E00370,P00262,2024-02-23,Oncology,Emergency,30-44,Male,2,0,1,Home,Cardiovascular,Self-pay,6103
+E00371,P00263,2024-03-07,Emergency,Observation,60-74,Male,1,0,0,Home,Respiratory,Private,5190
+E00372,P00264,2024-03-23,Neurology,Urgent,18-29,Female,2,0,0,Home,Oncology,Public,3577
+E00373,P00265,2024-04-05,General Medicine,Elective,45-59,Not recorded,2,0,0,Home,Infection,Public,3914
+E00374,P00265,2024-04-18,Cardiology,Emergency,75+,Male,5,0,0,Home,Musculoskeletal,Other,8001
+E00375,P00266,2024-05-01,Emergency,Observation,30-44,Female,0,0,0,Home,Cardiovascular,Self-pay,2088
+E00376,P00267,2024-05-14,Neurology,Urgent,60-74,Female,0,0,0,Home,Respiratory,Self-pay,2425
+E00377,P00267,2024-05-27,General Medicine,Elective,18-29,Not recorded,0,0,0,Expired,Oncology,Private,2762
+E00378,P00268,2024-06-09,Cardiology,Emergency,60-74,Male,2,0,0,Home health,Infection,Public,5599
+E00379,P00269,2024-06-25,Pulmonology,Emergency,18-29,Female,3,0,1,Home,Musculoskeletal,Public,7186
+E00380,P00270,2024-07-08,Orthopedics,Observation,45-59,Not recorded,2,0,0,Home,Other,Other,6273
+E00381,P00270,2024-07-21,Oncology,Urgent,75+,Not recorded,3,0,1,Home,Diabetes/Endocrine,Self-pay,4660
+E00382,P00271,2024-08-03,Emergency,Elective,30-44,Male,2,0,0,Home,Neurological,Self-pay,3747
+E00383,P00272,2024-08-16,Neurology,Emergency,60-74,Female,4,0,0,Home,Cardiovascular,Private,6584
+E00384,P00272,2024-08-29,General Medicine,Observation,18-29,Not recorded,0,0,0,Home,Respiratory,Public,1921
+E00385,P00273,2024-09-11,Cardiology,Urgent,45-59,Male,0,0,0,Home,Oncology,Public,2258
+E00386,P00274,2024-09-27,Emergency,Elective,75+,Male,2,1,1,Home,Infection,Other,12895
+E00387,P00275,2024-10-10,Neurology,Emergency,30-44,Female,2,0,0,Home,Musculoskeletal,Self-pay,5432
+E00388,P00275,2024-10-23,General Medicine,Emergency,60-74,Not recorded,3,0,1,Home,Other,Self-pay,7019
+E00389,P00276,2024-11-05,Cardiology,Observation,18-29,Male,2,0,0,Home,Diabetes/Endocrine,Private,6106
+E00390,P00277,2024-11-18,Pulmonology,Urgent,45-59,Female,2,0,0,Home,Neurological,Public,6443
+E00391,P00277,2024-12-01,Orthopedics,Elective,18-29,Female,3,0,0,Home health,Cardiovascular,Public,4830
+E00392,P00278,2024-12-14,Oncology,Emergency,45-59,Not recorded,1,1,0,Home,Musculoskeletal,Other,10467
+E00393,P00279,2024-12-30,Emergency,Observation,75+,Male,1,1,0,Home,Other,Self-pay,10804
+E00394,P00280,2025-01-12,Neurology,Urgent,30-44,Female,0,0,0,Home,Diabetes/Endocrine,Self-pay,2091
+E00395,P00280,2025-01-25,General Medicine,Elective,60-74,Not recorded,1,0,0,Home,Neurological,Private,3678
+E00396,P00281,2025-02-07,Cardiology,Emergency,18-29,Not recorded,3,0,0,Home,Cardiovascular,Public,6515
+E00397,P00282,2025-02-20,Emergency,Emergency,45-59,Male,3,0,1,Home,Respiratory,Public,6852
+E00398,P00282,2025-03-05,Neurology,Observation,75+,Female,3,0,0,Home,Oncology,Other,7189
+E00399,P00283,2025-03-18,General Medicine,Urgent,30-44,Not recorded,2,0,0,Home,Infection,Self-pay,6276
+E00400,P00284,2025-04-03,Cardiology,Elective,60-74,Male,3,0,0,Home,Musculoskeletal,Self-pay,4663
+E00401,P00285,2025-04-16,Pulmonology,Emergency,18-29,Male,1,0,0,Home,Other,Private,2500
+E00402,P00285,2025-04-29,Orthopedics,Observation,45-59,Female,0,0,0,Home,Diabetes/Endocrine,Public,1587
+E00403,P00286,2025-05-12,Oncology,Urgent,75+,Not recorded,2,0,0,Home,Neurological,Public,4424
+E00404,P00287,2025-05-25,Emergency,Elective,45-59,Male,1,0,0,Home health,Cardiovascular,Other,3511
+E00405,P00287,2025-06-07,Neurology,Emergency,75+,Female,4,0,0,Home,Respiratory,Self-pay,7598
+E00406,P00288,2025-06-20,General Medicine,Emergency,30-44,Female,3,0,1,Home,Oncology,Self-pay,6685
+E00407,P00289,2025-07-06,Cardiology,Observation,60-74,Not recorded,2,0,0,Transfer,Infection,Private,5772
+E00408,P00289,2025-07-19,Emergency,Urgent,18-29,Male,3,0,0,Home,Musculoskeletal,Public,7359
+E00409,P00290,2025-08-01,Neurology,Elective,45-59,Female,0,0,0,Home,Cardiovascular,Public,3946
+E00410,P00291,2025-08-14,General Medicine,Emergency,75+,Not recorded,3,0,0,Home,Respiratory,Other,4833
+E00411,P00292,2025-08-27,Cardiology,Observation,30-44,Not recorded,0,0,0,Home,Oncology,Self-pay,1420
+E00412,P00292,2025-09-09,Pulmonology,Urgent,60-74,Male,1,0,0,Home,Infection,Self-pay,3007
+E00413,P00293,2025-09-22,Orthopedics,Elective,18-29,Female,1,0,0,Home,Musculoskeletal,Private,3344
+E00414,P00294,2025-10-08,Oncology,Emergency,45-59,Not recorded,3,0,0,Home,Other,Public,6181
+E00415,P00294,2025-10-21,Emergency,Emergency,75+,Male,5,1,1,Home,Diabetes/Endocrine,Public,16818
+E00416,P00295,2025-11-03,Neurology,Observation,30-44,Male,2,0,0,Home,Neurological,Other,5605
+E00417,P00296,2025-11-16,General Medicine,Urgent,75+,Female,4,0,0,Home health,Cardiovascular,Self-pay,8442
+E00418,P00297,2025-11-29,Cardiology,Elective,30-44,Not recorded,0,0,0,Home,Respiratory,Self-pay,3779
+E00419,P00297,2024-01-12,Emergency,Emergency,60-74,Male,2,0,0,Home,Oncology,Private,3416
+E00420,P00298,2024-01-25,Neurology,Observation,18-29,Female,1,0,0,Home,Infection,Public,2503
+E00421,P00299,2024-02-10,General Medicine,Urgent,45-59,Female,1,0,0,Home,Musculoskeletal,Public,2840
+E00422,P00299,2024-02-23,Cardiology,Elective,75+,Not recorded,3,0,0,Home,Other,Other,5677
+E00423,P00300,2024-03-07,Pulmonology,Emergency,30-44,Male,3,0,0,Home,Diabetes/Endocrine,Self-pay,6014
+E00424,P00301,2024-03-20,Orthopedics,Emergency,60-74,Female,4,0,1,Expired,Neurological,Self-pay,7601
+E00425,P00302,2024-04-02,Oncology,Observation,18-29,Not recorded,3,0,0,Home,Cardiovascular,Private,6688
+E00426,P00302,2024-04-15,Emergency,Urgent,45-59,Not recorded,0,0,0,Home,Musculoskeletal,Public,3275
+E00427,P00303,2024-04-28,Neurology,Elective,75+,Male,1,0,0,Home,Other,Public,4862
+E00428,P00304,2024-05-14,General Medicine,Emergency,30-44,Female,2,0,0,Home,Diabetes/Endocrine,Other,6449
+E00429,P00304,2024-05-27,Cardiology,Observation,60-74,Not recorded,1,0,0,Home,Neurological,Self-pay,2336
+E00430,P00305,2024-06-09,Emergency,Urgent,30-44,Male,1,0,0,Home health,Cardiovascular,Self-pay,2673
+E00431,P00306,2024-06-22,Neurology,Elective,60-74,Male,2,0,0,Home,Respiratory,Private,4260
+E00432,P00307,2024-07-05,General Medicine,Emergency,18-29,Female,3,0,0,Home,Oncology,Public,5847
+E00433,P00307,2024-07-18,Cardiology,Emergency,45-59,Not recorded,4,0,1,Home,Infection,Public,7434
+E00434,P00308,2024-07-31,Pulmonology,Observation,75+,Male,4,0,0,Home,Musculoskeletal,Other,7771
+E00435,P00309,2024-08-16,Orthopedics,Urgent,30-44,Female,0,0,0,Home,Other,Self-pay,3108
+E00436,P00309,2024-08-29,Oncology,Elective,60-74,Female,0,0,0,Transfer,Diabetes/Endocrine,Self-pay,3445
+E00437,P00310,2024-09-11,Emergency,Emergency,18-29,Not recorded,2,0,0,Home,Neurological,Private,6282
+E00438,P00311,2024-09-24,Neurology,Observation,45-59,Male,1,1,0,Home,Cardiovascular,Public,9969
+E00439,P00311,2024-10-07,General Medicine,Urgent,75+,Female,3,0,0,Home,Respiratory,Public,5006
+E00440,P00312,2024-10-20,Cardiology,Elective,30-44,Not recorded,2,0,0,Home,Oncology,Other,4093
+E00441,P00313,2024-11-02,Emergency,Emergency,60-74,Not recorded,4,0,0,Home,Infection,Self-pay,6930
+E00442,P00314,2024-11-18,Neurology,Emergency,18-29,Male,4,0,1,Home,Musculoskeletal,Self-pay,7267
+E00443,P00314,2024-12-01,General Medicine,Observation,60-74,Female,0,0,0,Home health,Cardiovascular,Private,2604
+E00444,P00315,2024-12-14,Cardiology,Urgent,18-29,Not recorded,0,0,0,Home,Respiratory,Public,2941
+E00445,P00316,2024-12-27,Pulmonology,Elective,45-59,Male,0,0,0,Home,Oncology,Public,3278
+E00446,P00316,2025-01-09,Orthopedics,Emergency,75+,Male,4,0,1,Home,Infection,Other,8615
+E00447,P00317,2025-01-22,Oncology,Observation,30-44,Female,1,0,0,Home,Musculoskeletal,Self-pay,5202
+E00448,P00318,2025-02-04,Emergency,Urgent,60-74,Not recorded,2,0,0,Home,Other,Self-pay,3589
+E00449,P00319,2025-02-20,Neurology,Elective,18-29,Male,2,0,0,Home,Diabetes/Endocrine,Private,3926
+E00450,P00319,2025-03-05,General Medicine,Emergency,45-59,Female,4,0,0,Home,Neurological,Public,6763
+E00451,P00320,2025-03-18,Cardiology,Emergency,75+,Female,6,0,1,Home,Cardiovascular,Public,9600
+E00452,P00321,2025-03-31,Emergency,Observation,30-44,Not recorded,0,0,0,Home,Respiratory,Other,2437
+E00453,P00321,2025-04-13,Neurology,Urgent,60-74,Male,0,0,0,Home,Oncology,Self-pay,2774
+E00454,P00322,2025-04-26,General Medicine,Elective,18-29,Female,1,0,0,Home,Infection,Self-pay,4361
+E00455,P00323,2025-05-09,Cardiology,Emergency,45-59,Not recorded,2,0,0,Home,Musculoskeletal,Private,5948
+E00456,P00324,2025-05-25,Pulmonology,Observation,18-29,Not recorded,1,0,0,Home health,Other,Public,5035
+E00457,P00324,2025-06-07,Orthopedics,Urgent,45-59,Male,2,0,0,Home,Diabetes/Endocrine,Public,3422
+E00458,P00325,2025-06-20,Oncology,Elective,75+,Female,4,0,0,Home,Neurological,Other,6259
+E00459,P00326,2025-07-03,Emergency,Emergency,30-44,Not recorded,4,0,0,Home,Cardiovascular,Self-pay,6596
+E00460,P00326,2025-07-16,Neurology,Emergency,60-74,Male,1,0,1,Home,Musculoskeletal,Self-pay,3183
+E00461,P00327,2025-07-29,General Medicine,Observation,18-29,Male,0,1,0,Home,Other,Private,10070
+E00462,P00328,2025-08-11,Cardiology,Urgent,45-59,Female,0,0,0,Home,Diabetes/Endocrine,Public,2607
+E00463,P00329,2025-08-27,Emergency,Elective,75+,Not recorded,2,1,0,Home,Neurological,Public,13244
+E00464,P00329,2025-09-09,Neurology,Emergency,30-44,Male,3,0,0,Home,Cardiovascular,Other,7031
+E00465,P00330,2025-09-22,General Medicine,Observation,60-74,Female,2,0,0,Transfer,Respiratory,Self-pay,6118
+E00466,P00331,2025-10-05,Cardiology,Urgent,18-29,Female,2,0,0,Home,Oncology,Self-pay,6455
+E00467,P00331,2025-10-18,Pulmonology,Elective,45-59,Not recorded,2,0,0,Home,Infection,Private,3592
+E00468,P00332,2025-10-31,Orthopedics,Emergency,75+,Male,6,0,0,Home,Musculoskeletal,Public,8929
+E00469,P00333,2025-11-13,Oncology,Emergency,45-59,Female,1,0,1,Home health,Other,Public,3016
+E00470,P00333,2025-11-29,Emergency,Observation,75+,Not recorded,2,1,0,Home,Diabetes/Endocrine,Other,12403
+E00471,P00334,2024-01-12,Neurology,Urgent,30-44,Not recorded,1,0,0,Expired,Neurological,Self-pay,3690
+E00472,P00335,2024-01-25,General Medicine,Elective,60-74,Male,1,0,0,Home,Cardiovascular,Self-pay,4027
+E00473,P00336,2024-02-07,Cardiology,Emergency,18-29,Female,3,0,0,Home,Respiratory,Private,6864
+E00474,P00336,2024-02-20,Emergency,Observation,45-59,Not recorded,2,0,0,Home,Oncology,Public,5951
+E00475,P00337,2024-03-04,Neurology,Urgent,75+,Male,4,0,0,Home,Infection,Public,8788
+E00476,P00338,2024-03-17,General Medicine,Elective,30-44,Male,3,0,0,Home,Musculoskeletal,Other,4675
+E00477,P00338,2024-04-02,Cardiology,Emergency,60-74,Female,1,0,0,Home,Cardiovascular,Self-pay,2512
+E00478,P00339,2024-04-15,Pulmonology,Emergency,18-29,Not recorded,1,0,1,Home,Respiratory,Self-pay,2849
+E00479,P00340,2024-04-28,Orthopedics,Observation,45-59,Male,0,0,0,Home,Oncology,Private,1936
+E00480,P00341,2024-05-11,Oncology,Urgent,75+,Female,2,0,0,Home,Infection,Public,4773
+E00481,P00341,2024-05-24,Emergency,Elective,30-44,Female,1,0,0,Home,Musculoskeletal,Public,3860
+E00482,P00342,2024-06-06,Neurology,Emergency,75+,Not recorded,4,0,0,Home health,Other,Other,7947
+E00483,P00343,2024-06-19,General Medicine,Observation,30-44,Male,2,0,0,Home,Diabetes/Endocrine,Self-pay,5784
+E00484,P00343,2024-07-05,Cardiology,Urgent,60-74,Female,2,1,0,Home,Neurological,Self-pay,13921
+E00485,P00344,2024-07-18,Emergency,Elective,18-29,Not recorded,3,0,0,Home,Cardiovascular,Private,7708
+E00486,P00345,2024-07-31,Neurology,Emergency,45-59,Not recorded,1,0,0,Home,Respiratory,Public,2345
+E00487,P00346,2024-08-13,General Medicine,Emergency,75+,Male,3,0,1,Home,Oncology,Public,5182
+E00488,P00346,2024-08-26,Cardiology,Observation,30-44,Female,1,0,0,Home,Infection,Other,3019
+E00489,P00347,2024-09-08,Pulmonology,Urgent,60-74,Not recorded,1,0,0,Home,Musculoskeletal,Self-pay,3356
+E00490,P00348,2024-09-21,Orthopedics,Elective,18-29,Male,1,0,0,Home,Other,Self-pay,3693
+E00491,P00348,2024-10-07,Oncology,Emergency,45-59,Male,3,0,0,Home,Diabetes/Endocrine,Private,6530
+E00492,P00349,2024-10-20,Emergency,Observation,75+,Female,4,0,0,Home,Neurological,Public,8117
+E00493,P00350,2024-11-02,Neurology,Urgent,30-44,Not recorded,3,0,0,Home,Cardiovascular,Public,7204
+E00494,P00351,2024-11-15,General Medicine,Elective,60-74,Male,0,0,0,Transfer,Musculoskeletal,Other,3791
+E00495,P00351,2024-11-28,Cardiology,Emergency,30-44,Female,1,0,0,Home health,Other,Self-pay,2178
+E00496,P00352,2024-12-11,Emergency,Emergency,60-74,Female,2,0,1,Home,Diabetes/Endocrine,Self-pay,3765
+E00497,P00353,2024-12-24,Neurology,Observation,18-29,Not recorded,1,0,0,Home,Neurological,Private,2852
+E00498,P00353,2025-01-09,General Medicine,Urgent,45-59,Male,1,0,0,Home,Cardiovascular,Public,3189
+E00499,P00354,2025-01-22,Cardiology,Elective,75+,Female,3,0,0,Home,Respiratory,Public,6026
+E00500,P00355,2025-02-04,Pulmonology,Emergency,30-44,Not recorded,3,0,0,Home,Oncology,Other,6363
+E00501,P00356,2025-02-17,Orthopedics,Observation,60-74,Not recorded,2,0,0,Home,Infection,Self-pay,5450
+E00502,P00356,2025-03-02,Oncology,Urgent,18-29,Male,3,0,0,Home,Musculoskeletal,Self-pay,7037
+E00503,P00357,2025-03-15,Emergency,Elective,45-59,Female,0,0,0,Home,Other,Private,3624
+E00504,P00358,2025-03-28,Neurology,Emergency,75+,Not recorded,3,0,0,Home,Diabetes/Endocrine,Public,7711
+E00505,P00358,2025-04-13,General Medicine,Emergency,30-44,Male,2,0,1,Home,Neurological,Public,3598
+E00506,P00359,2025-04-26,Cardiology,Observation,60-74,Male,1,0,0,Home,Cardiovascular,Other,2685
+E00507,P00360,2025-05-09,Emergency,Urgent,18-29,Female,1,1,0,Home,Respiratory,Self-pay,10822
+E00508,P00360,2025-05-22,Neurology,Elective,60-74,Not recorded,2,0,0,Home health,Oncology,Self-pay,4609
+E00509,P00361,2025-06-04,General Medicine,Emergency,18-29,Male,4,0,0,Home,Infection,Private,7446
+E00510,P00362,2025-06-17,Cardiology,Observation,45-59,Female,3,0,0,Home,Musculoskeletal,Public,6533
+E00511,P00363,2025-06-30,Pulmonology,Urgent,75+,Female,1,0,1,Home,Cardiovascular,Public,4370
+E00512,P00363,2025-07-16,Orthopedics,Elective,30-44,Not recorded,0,0,0,Home,Respiratory,Other,3457
+E00513,P00364,2025-07-29,Oncology,Emergency,60-74,Male,2,0,0,Home,Oncology,Self-pay,6294
+E00514,P00365,2025-08-11,Emergency,Emergency,18-29,Female,2,0,1,Home,Infection,Self-pay,3431
+E00515,P00365,2025-08-24,Neurology,Observation,45-59,Not recorded,1,0,0,Home,Musculoskeletal,Private,2518
+E00516,P00366,2025-09-06,General Medicine,Urgent,75+,Not recorded,3,0,1,Home,Other,Public,5355
+E00517,P00367,2025-09-19,Cardiology,Elective,30-44,Male,2,0,0,Home,Diabetes/Endocrine,Public,4442
+E00518,P00368,2025-10-02,Emergency,Emergency,60-74,Female,4,0,0,Expired,Neurological,Other,7279
+E00519,P00368,2025-10-18,Neurology,Observation,18-29,Not recorded,3,0,0,Home,Cardiovascular,Self-pay,6366
+E00520,P00369,2025-10-31,General Medicine,Urgent,45-59,Male,0,0,0,Home,Respiratory,Self-pay,2953
+E00521,P00370,2025-11-13,Cardiology,Elective,18-29,Male,0,0,0,Home health,Oncology,Private,3290
+E00522,P00370,2025-11-26,Pulmonology,Emergency,45-59,Female,2,0,0,Home,Infection,Public,6127
+E00523,P00371,2024-01-09,Orthopedics,Emergency,75+,Not recorded,4,0,1,Transfer,Musculoskeletal,Public,8964
+E00524,P00372,2024-01-22,Oncology,Observation,30-44,Male,1,0,0,Home,Other,Other,2351
+E00525,P00373,2024-02-04,Emergency,Urgent,60-74,Female,2,0,0,Home,Diabetes/Endocrine,Self-pay,3938
+E00526,P00373,2024-02-20,Neurology,Elective,18-29,Female,2,0,0,Home,Neurological,Self-pay,4275
+E00527,P00374,2024-03-04,General Medicine,Emergency,45-59,Not recorded,4,0,0,Home,Cardiovascular,Private,7112
+E00528,P00375,2024-03-17,Cardiology,Observation,75+,Male,1,0,0,Home,Musculoskeletal,Public,3699
+E00529,P00375,2024-03-30,Emergency,Urgent,30-44,Female,0,0,0,Home,Other,Public,2786
+E00530,P00376,2024-04-12,Neurology,Elective,60-74,Not recorded,0,1,0,Home,Diabetes/Endocrine,Other,10923
+E00531,P00377,2024-04-25,General Medicine,Emergency,18-29,Not recorded,2,0,0,Home,Neurological,Self-pay,5960
+E00532,P00378,2024-05-08,Cardiology,Emergency,45-59,Male,3,0,1,Home,Cardiovascular,Self-pay,7547
+E00533,P00378,2024-05-24,Pulmonology,Observation,75+,Female,3,1,0,Home,Respiratory,Private,12484
+E00534,P00379,2024-06-06,Orthopedics,Urgent,45-59,Not recorded,2,0,0,Home health,Oncology,Public,3771
+E00535,P00380,2024-06-19,Oncology,Elective,75+,Male,4,0,0,Home,Infection,Public,6608
+E00536,P00380,2024-07-02,Emergency,Emergency,30-44,Male,4,0,0,Home,Musculoskeletal,Other,6945
+E00537,P00381,2024-07-15,Neurology,Observation,60-74,Female,0,0,0,Home,Other,Self-pay,2282
+E00538,P00382,2024-07-28,General Medicine,Urgent,18-29,Not recorded,0,0,0,Home,Diabetes/Endocrine,Self-pay,2619
+E00539,P00382,2024-08-10,Cardiology,Elective,45-59,Male,1,0,0,Home,Neurological,Private,4206
+E00540,P00383,2024-08-26,Emergency,Emergency,75+,Female,4,1,0,Home,Cardiovascular,Public,16093
+E00541,P00384,2024-09-08,Neurology,Emergency,30-44,Female,3,0,1,Home,Respiratory,Public,7380
+E00542,P00385,2024-09-21,General Medicine,Observation,60-74,Not recorded,2,0,0,Home,Oncology,Other,6467
+E00543,P00385,2024-10-04,Cardiology,Urgent,18-29,Male,2,0,0,Home,Infection,Self-pay,3604
+E00544,P00386,2024-10-17,Pulmonology,Elective,45-59,Female,3,0,0,Home,Musculoskeletal,Self-pay,5191
+E00545,P00387,2024-10-30,Orthopedics,Emergency,75+,Not recorded,2,0,0,Home,Cardiovascular,Private,4278
+E00546,P00387,2024-11-12,Oncology,Observation,30-44,Not recorded,0,0,0,Home,Respiratory,Public,2115
+E00547,P00388,2024-11-28,Emergency,Urgent,75+,Male,2,1,0,Home health,Oncology,Public,12752
+E00548,P00389,2024-12-11,Neurology,Elective,30-44,Female,1,0,0,Home,Infection,Other,4039
+E00549,P00390,2024-12-24,General Medicine,Emergency,60-74,Not recorded,3,0,0,Home,Musculoskeletal,Self-pay,6876
+E00550,P00390,2025-01-06,Cardiology,Emergency,18-29,Male,3,0,1,Home,Other,Self-pay,7213
+E00551,P00391,2025-01-19,Emergency,Observation,45-59,Male,2,0,0,Home,Diabetes/Endocrine,Private,6300
+E00552,P00392,2025-02-01,Neurology,Urgent,75+,Female,4,0,0,Transfer,Neurological,Public,5937
+E00553,P00392,2025-02-14,General Medicine,Elective,30-44,Not recorded,3,1,0,Home,Cardiovascular,Public,12824
+E00554,P00393,2025-03-02,Cardiology,Emergency,60-74,Male,1,0,0,Home,Respiratory,Other,2861
+E00555,P00394,2025-03-15,Pulmonology,Observation,18-29,Female,0,0,0,Home,Oncology,Self-pay,1948
+E00556,P00395,2025-03-28,Orthopedics,Urgent,45-59,Female,1,0,0,Home,Infection,Self-pay,3535
+E00557,P00395,2025-04-10,Oncology,Elective,75+,Not recorded,2,0,0,Home,Musculoskeletal,Private,5122
+E00558,P00396,2025-04-23,Emergency,Emergency,30-44,Male,3,0,0,Home,Other,Public,6709
+E00559,P00397,2025-05-06,Neurology,Emergency,60-74,Female,3,0,1,Home,Diabetes/Endocrine,Public,7046
+E00560,P00397,2025-05-19,General Medicine,Observation,30-44,Not recorded,2,0,0,Home health,Neurological,Other,6133
+E00561,P00398,2025-06-04,Cardiology,Urgent,60-74,Not recorded,3,0,0,Home,Cardiovascular,Self-pay,7720
+E00562,P00399,2025-06-17,Emergency,Elective,18-29,Male,0,0,0,Home,Musculoskeletal,Self-pay,1107
+E00563,P00400,2025-06-30,Neurology,Emergency,45-59,Female,1,0,0,Home,Other,Private,2694
+E00564,P00400,2025-07-13,General Medicine,Observation,75+,Not recorded,2,0,0,Home,Diabetes/Endocrine,Public,4281
+E00565,P00401,2025-07-26,Cardiology,Urgent,30-44,Male,1,0,0,Expired,Neurological,Public,3368
+E00566,P00402,2025-08-08,Pulmonology,Elective,60-74,Male,1,0,0,Home,Cardiovascular,Other,3705
+E00567,P00402,2025-08-21,Orthopedics,Emergency,18-29,Female,3,0,0,Home,Respiratory,Self-pay,6542
+E00568,P00403,2025-09-06,Oncology,Emergency,45-59,Not recorded,3,0,1,Home,Oncology,Self-pay,6879
+E00569,P00404,2025-09-19,Emergency,Observation,75+,Male,4,0,0,Home,Infection,Private,8466
+E00570,P00404,2025-10-02,Neurology,Urgent,30-44,Female,3,0,0,Home,Musculoskeletal,Public,7553
+E00571,P00405,2025-10-15,General Medicine,Elective,60-74,Female,0,0,0,Home,Other,Public,940
+E00572,P00406,2025-10-28,Cardiology,Emergency,18-29,Not recorded,2,0,0,Home,Diabetes/Endocrine,Other,3777
+E00573,P00407,2025-11-10,Emergency,Observation,60-74,Male,1,0,0,Home health,Neurological,Self-pay,2864
+E00574,P00407,2025-11-23,Neurology,Urgent,18-29,Female,1,0,0,Home,Cardiovascular,Self-pay,3201
+E00575,P00408,2024-01-09,General Medicine,Elective,45-59,Not recorded,1,0,0,Home,Respiratory,Private,3538
+E00576,P00409,2024-01-22,Cardiology,Emergency,75+,Not recorded,5,1,1,Home,Oncology,Public,16675
+E00577,P00409,2024-02-04,Pulmonology,Emergency,30-44,Male,4,0,1,Home,Infection,Public,7962
+E00578,P00410,2024-02-17,Orthopedics,Observation,60-74,Female,3,0,0,Home,Musculoskeletal,Other,7049
+E00579,P00411,2024-03-01,Oncology,Urgent,18-29,Not recorded,0,0,0,Home,Cardiovascular,Self-pay,3636
+E00580,P00412,2024-03-14,Emergency,Elective,45-59,Male,0,0,0,Home,Respiratory,Self-pay,3973
+E00581,P00412,2024-03-27,Neurology,Emergency,75+,Male,3,0,1,Transfer,Oncology,Private,4860
+E00582,P00413,2024-04-12,General Medicine,Observation,30-44,Female,1,0,0,Home,Infection,Public,2697
+E00583,P00414,2024-04-25,Cardiology,Urgent,60-74,Not recorded,1,0,0,Home,Musculoskeletal,Public,3034
+E00584,P00414,2024-05-08,Emergency,Elective,18-29,Male,2,0,0,Home,Other,Other,4621
+E00585,P00415,2024-05-21,Neurology,Emergency,45-59,Female,3,0,0,Home,Diabetes/Endocrine,Self-pay,6208
+E00586,P00416,2024-06-03,General Medicine,Emergency,18-29,Female,4,0,1,Home health,Neurological,Self-pay,7795
+E00587,P00417,2024-06-16,Cardiology,Observation,45-59,Not recorded,3,0,0,Home,Cardiovascular,Private,6882
+E00588,P00417,2024-06-29,Pulmonology,Urgent,75+,Male,1,0,0,Home,Respiratory,Public,4719
+E00589,P00418,2024-07-15,Orthopedics,Elective,30-44,Female,0,0,0,Home,Oncology,Public,3806
+E00590,P00419,2024-07-28,Oncology,Emergency,60-74,Not recorded,2,0,0,Home,Infection,Other,3443
+E00591,P00419,2024-08-10,Emergency,Observation,18-29,Not recorded,1,0,0,Home,Musculoskeletal,Self-pay,2530
+E00592,P00420,2024-08-23,Neurology,Urgent,45-59,Male,1,0,0,Home,Other,Self-pay,2867
+E00593,P00421,2024-09-05,General Medicine,Elective,75+,Female,3,0,0,Home,Diabetes/Endocrine,Private,5704
+E00594,P00422,2024-09-18,Cardiology,Emergency,30-44,Not recorded,4,0,0,Home,Neurological,Public,7291
+E00595,P00422,2024-10-01,Emergency,Emergency,60-74,Male,4,0,1,Home,Cardiovascular,Public,7628
+E00596,P00423,2024-10-17,Neurology,Observation,18-29,Male,0,0,0,Home,Musculoskeletal,Other,2965
+E00597,P00424,2024-10-30,General Medicine,Urgent,45-59,Female,0,0,0,Home,Other,Self-pay,3302
+E00598,P00424,2024-11-12,Cardiology,Elective,75+,Not recorded,2,0,0,Home,Diabetes/Endocrine,Self-pay,6139
+E00599,P00425,2024-11-25,Pulmonology,Emergency,45-59,Male,2,1,0,Home health,Neurological,Private,14276
+E00600,P00426,2024-12-08,Orthopedics,Observation,75+,Female,3,0,0,Home,Cardiovascular,Public,4863
+E00601,P00427,2024-12-21,Oncology,Urgent,30-44,Female,2,0,0,Home,Respiratory,Public,3950
+E00602,P00427,2025-01-03,Emergency,Elective,60-74,Not recorded,2,0,0,Home,Oncology,Other,4287
+E00603,P00428,2025-01-19,Neurology,Emergency,18-29,Male,4,0,0,Home,Infection,Self-pay,7124
+E00604,P00429,2025-02-01,General Medicine,Emergency,45-59,Female,4,0,1,Home,Musculoskeletal,Self-pay,7461
+E00605,P00429,2025-02-14,Cardiology,Observation,75+,Not recorded,1,0,0,Home,Other,Private,4048
+E00606,P00430,2025-02-27,Emergency,Urgent,30-44,Not recorded,0,0,0,Home,Diabetes/Endocrine,Public,3135
+E00607,P00431,2025-03-12,Neurology,Elective,60-74,Male,1,0,0,Home,Neurological,Public,4722
+E00608,P00431,2025-03-25,General Medicine,Emergency,18-29,Female,2,0,0,Home,Cardiovascular,Other,6309
+E00609,P00432,2025-04-07,Cardiology,Observation,45-59,Not recorded,1,0,0,Home,Respiratory,Self-pay,2196
+E00610,P00433,2025-04-23,Pulmonology,Urgent,75+,Male,3,1,0,Transfer,Oncology,Self-pay,12833
+E00611,P00434,2025-05-06,Orthopedics,Elective,30-44,Male,2,0,0,Home,Infection,Private,4120
+E00612,P00434,2025-05-19,Oncology,Emergency,75+,Female,5,0,0,Expired,Musculoskeletal,Public,8207
+E00613,P00435,2025-06-01,Emergency,Emergency,30-44,Not recorded,1,0,1,Home,Cardiovascular,Public,3544
+E00614,P00436,2025-06-14,Neurology,Observation,60-74,Male,0,0,0,Home,Respiratory,Other,2631
+E00615,P00436,2025-06-27,General Medicine,Urgent,18-29,Female,0,0,0,Home,Oncology,Self-pay,2968
+E00616,P00437,2025-07-10,Cardiology,Elective,45-59,Female,1,0,0,Home,Infection,Self-pay,4555
+E00617,P00438,2025-07-26,Emergency,Emergency,75+,Not recorded,4,1,0,Home,Musculoskeletal,Private,16442
+E00618,P00439,2025-08-08,Neurology,Observation,30-44,Male,2,0,0,Home,Other,Public,6479
+E00619,P00439,2025-08-21,General Medicine,Urgent,60-74,Female,2,0,0,Home,Diabetes/Endocrine,Public,3616
+E00620,P00440,2025-09-03,Cardiology,Elective,18-29,Not recorded,2,0,0,Home,Neurological,Other,3953
