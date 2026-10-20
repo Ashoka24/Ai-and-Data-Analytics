@@ -25,8 +25,8 @@ class ClinicalDataTests(unittest.TestCase):
         summary = build_summaries(self.encounters, self.labs)
         self.assertGreater(summary["encounters"], 0)
         self.assertGreater(summary["unique_patients"], 0)
-        self.assertGreaterEqual(summary["readmission_30d_rate_pct"], 0)
-        self.assertLessEqual(summary["readmission_30d_rate_pct"], 100)
+        self.assertGreaterEqual(summary["simulated_readmission_flag_pct"], 0)
+        self.assertLessEqual(summary["simulated_readmission_flag_pct"], 100)
         self.assertGreaterEqual(summary["lab_abnormal_rate_pct"], 0)
         self.assertLessEqual(summary["lab_abnormal_rate_pct"], 100)
 if __name__ == "__main__":
