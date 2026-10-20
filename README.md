@@ -10,8 +10,9 @@ This repository brings together practical projects in business intelligence, pre
 | [Customer Churn Prediction](customer-churn-prediction/) | Compare classification models with a held-out test set and review churn patterns | Python, scikit-learn, pandas, SQL, Matplotlib, Streamlit |
 | [AI Research Assistant (RAG)](ai-research-assistant-rag/) | Search local documents, retrieve relevant passages and answer with source citations | Python, scikit-learn, TF-IDF, Streamlit, optional OpenAI API |
 | [Demand Forecasting & Sales Prediction](demand-forecasting/) | Compare time-series baseline and machine-learning forecasts; evaluate holdout accuracy | Python, pandas, scikit-learn, Matplotlib, Streamlit |
+| [Clinical Data Analytics — Power BI & Tableau](clinical-data-analytics/) | Clinical operations, simulated outcomes, lab summaries and BI dashboard design | Power BI, DAX, Power Query, Tableau, Python, pandas |
 
-The sales, churn and demand-forecasting projects use synthetic datasets. The RAG assistant includes original demonstration notes; add your own permitted TXT, Markdown or PDF documents to research your own material. The assistant does not browse the internet.
+The sales, churn, demand-forecasting and clinical analytics projects use synthetic datasets. The clinical project is strictly a BI portfolio demonstration, not real patient data or clinical decision support. The RAG assistant includes original demonstration notes; add your own permitted TXT, Markdown or PDF documents to research your own material. The assistant does not browse the internet.
 
 ## Repository structure
 
@@ -21,6 +22,7 @@ Ai-and-Data-Analytics/
 ├── customer-churn-prediction/   # Machine learning project
 ├── ai-research-assistant-rag/    # Retrieval-augmented document assistant
 ├── demand-forecasting/           # Time-series forecasting project
+├── clinical-data-analytics/      # Power BI and Tableau clinical analytics
 ├── docs/                        # Repository-wide documentation
 ├── .github/workflows/           # Automated checks
 ├── LICENSE
@@ -53,7 +55,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Follow the run instructions in the README inside each project. GitHub Actions runs analysis and unit tests for all four projects on pushes and pull requests.
+Follow the run instructions in the README inside each project. GitHub Actions runs analysis and unit tests for all five projects on pushes and pull requests.
 
 ## Documentation
 
@@ -62,6 +64,7 @@ Follow the run instructions in the README inside each project. GitHub Actions ru
 - [Customer Churn Prediction](customer-churn-prediction/README.md)
 - [AI Research Assistant (RAG)](ai-research-assistant-rag/README.md)
 - [Demand Forecasting & Sales Prediction](demand-forecasting/README.md)
+- [Clinical Data Analytics — Power BI & Tableau](clinical-data-analytics/README.md)
 
 ## Licence
 
