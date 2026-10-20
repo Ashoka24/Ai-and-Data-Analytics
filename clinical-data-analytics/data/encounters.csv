@@ -1,4 +1,4 @@
-EncounterID,PatientID,EncounterDate,Department,AdmissionType,AgeBand,Sex,LengthOfStayDays,ICUFlag,Readmitted30Days,DischargeDisposition,PrimaryDiagnosisGroup,PayerGroup,TotalCostUSD
+EncounterID,PatientID,EncounterDate,Department,AdmissionType,AgeBand,Sex,LengthOfStayDays,ICUFlag,SimulatedReadmissionFlag,DischargeDisposition,PrimaryDiagnosisGroup,PayerGroup,TotalCostUSD
 E00001,P00001,2024-01-01,Emergency,Emergency,18-29,Female,1,1,1,Expired,Cardiovascular,Public,9900
 E00002,P00001,2024-01-14,Neurology,Observation,45-59,Not recorded,0,0,0,Home,Respiratory,Other,1187
 E00003,P00002,2024-01-27,General Medicine,Urgent,75+,Male,2,0,0,Home,Oncology,Self-pay,4024
