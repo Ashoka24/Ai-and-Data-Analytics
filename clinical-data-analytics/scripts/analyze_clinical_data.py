@@ -93,10 +93,10 @@ def build_summaries(encounters: pd.DataFrame, labs: pd.DataFrame) -> dict:
 
     monthly = e.groupby("Month", as_index=False).agg(
         Encounters=("EncounterID", "nunique"), UniquePatients=("PatientID", "nunique"),
-        MeanLOS=("LengthOfStayDays", "mean"), Readmissions30D=("SimulatedReadmissionFlag", "sum"),
+        MeanLOS=("LengthOfStayDays", "mean"), SimulatedReadmissionFlagCount=("SimulatedReadmissionFlag", "sum"),
         ICUEncounters=("ICUFlag", "sum"), TotalCostUSD=("TotalCostUSD", "sum"),
         ExpiredDischarges=("DischargeDisposition", lambda s: (s == "Expired").sum()))
-    monthly["ReadmissionRatePct"] = (monthly["Readmissions30D"] / monthly["Encounters"] * 100).round(2)
+    monthly["SimulatedReadmissionFlagPct"] = (monthly["SimulatedReadmissionFlagCount"] / monthly["Encounters"] * 100).round(2)
     monthly["ICURatePct"] = (monthly["ICUEncounters"] / monthly["Encounters"] * 100).round(2)
     monthly.to_csv(OUTPUT / "monthly_summary.csv", index=False, float_format="%.3f")
 
@@ -104,8 +104,8 @@ def build_summaries(encounters: pd.DataFrame, labs: pd.DataFrame) -> dict:
         Encounters=("EncounterID", "nunique"), UniquePatients=("PatientID", "nunique"),
         MeanLOS=("LengthOfStayDays", "mean"), MedianLOS=("LengthOfStayDays", "median"),
         MeanCostUSD=("TotalCostUSD", "mean"), TotalCostUSD=("TotalCostUSD", "sum"),
-        Readmissions30D=("SimulatedReadmissionFlag", "sum"), ICUEncounters=("ICUFlag", "sum"))
-    department["ReadmissionRatePct"] = (department["Readmissions30D"] / department["Encounters"] * 100).round(2)
+        SimulatedReadmissionFlagCount=("SimulatedReadmissionFlag", "sum"), ICUEncounters=("ICUFlag", "sum"))
+    department["SimulatedReadmissionFlagPct"] = (department["SimulatedReadmissionFlagCount"] / department["Encounters"] * 100).round(2)
     department["ICURatePct"] = (department["ICUEncounters"] / department["Encounters"] * 100).round(2)
     department.to_csv(OUTPUT / "department_summary.csv", index=False, float_format="%.3f")
 
@@ -162,7 +162,7 @@ def build_summaries(encounters: pd.DataFrame, labs: pd.DataFrame) -> dict:
         "unique_patients": int(e["PatientID"].nunique()),
         "mean_length_of_stay_days": round(float(e["LengthOfStayDays"].mean()), 2),
         "median_length_of_stay_days": round(float(e["LengthOfStayDays"].median()), 2),
-        "readmission_30d_rate_pct": round(float(e["SimulatedReadmissionFlag"].mean() * 100), 2),
+        "simulated_readmission_flag_pct": round(float(e["SimulatedReadmissionFlag"].mean() * 100), 2),
         "icu_encounter_rate_pct": round(float(e["ICUFlag"].mean() * 100), 2),
         "lab_results": int(len(labs)),
         "lab_abnormal_rate_pct": round(float(labs["AbnormalFlag"].mean() * 100), 2),
