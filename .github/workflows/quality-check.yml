@@ -41,6 +41,12 @@ jobs:
       - name: Test demand forecasting
         run: python -m unittest discover -s tests -v
         working-directory: demand-forecasting
+      - name: Validate clinical data and export summaries
+        run: python scripts/analyze_clinical_data.py
+        working-directory: clinical-data-analytics
+      - name: Test clinical data analytics
+        run: python -m unittest discover -s tests -v
+        working-directory: clinical-data-analytics
       - name: Upload generated reports
         if: always()
         uses: actions/upload-artifact@v4
@@ -53,4 +59,5 @@ jobs:
             ai-research-assistant-rag/outputs/
             demand-forecasting/outputs/
             demand-forecasting/figures/demand_forecast.png
+            clinical-data-analytics/outputs/
           if-no-files-found: warn
