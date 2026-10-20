@@ -55,6 +55,10 @@ The script writes reproducible outputs under `clinical-data-analytics/outputs/`.
 - `statistical_tests.json` — exploratory tests with sample sizes, estimates and p-values.
 - `figures/` — distribution, subgroup and laboratory plots.
 
+## Evidence and data validity audit
+
+See [Clinical Evidence and Data Validity Audit](docs/clinical-evidence-and-data-audit.md) for a documented review of dataset provenance, internal checks, simulated outcome labels and laboratory-range limitations.
+
 ## Interpretation and limitations
 
 This is a portfolio exercise using synthetic data, not a clinical study. A statistically significant result would not establish causation, clinical importance or generalizability. The readmission flag is simulated, lab reference bounds are simplified, and no risk adjustment or validated clinical definitions are provided. Real-world analysis requires approved data access, privacy safeguards, prespecified cohort definitions, missing-data handling, clinical review and domain-appropriate statistical methods.
