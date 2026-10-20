@@ -35,6 +35,12 @@ jobs:
       - name: Test AI research assistant
         run: python -m unittest discover -s tests -v
         working-directory: ai-research-assistant-rag
+      - name: Run demand forecasting analysis
+        run: python scripts/run_analysis.py
+        working-directory: demand-forecasting
+      - name: Test demand forecasting
+        run: python -m unittest discover -s tests -v
+        working-directory: demand-forecasting
       - name: Upload generated reports
         if: always()
         uses: actions/upload-artifact@v4
@@ -45,4 +51,6 @@ jobs:
             sales-performance-bi/reports/
             customer-churn-prediction/outputs/
             ai-research-assistant-rag/outputs/
+            demand-forecasting/outputs/
+            demand-forecasting/figures/demand_forecast.png
           if-no-files-found: warn
