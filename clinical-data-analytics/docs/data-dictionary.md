@@ -15,7 +15,7 @@ All records are synthetic and generated for this portfolio project. They are not
 | Sex | Synthetic category, includes not recorded | Category |
 | LengthOfStayDays | Illustrative length of stay | Whole number |
 | ICUFlag | 1 if ICU used in the synthetic encounter | Binary |
-| SimulatedReadmissionFlag | Synthetic 30-day readmission indicator | Binary |
+| SimulatedReadmissionFlag | Simulated outcome flag; not derived from subsequent encounter records | Binary |
 | DischargeDisposition | Synthetic discharge category | Category |
 | PrimaryDiagnosisGroup | Broad diagnosis group | Category |
 | PayerGroup | Synthetic payer category | Category |
