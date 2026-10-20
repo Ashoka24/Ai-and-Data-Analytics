@@ -1,0 +1,51 @@
+/*
+Power BI measures for the clinical operations demo.
+Create one-to-many relationship Encounters[EncounterID] -> LabResults[EncounterID].
+Create each measure separately in Power BI Desktop.
+*/
+Total Encounters =
+DISTINCTCOUNT ( Encounters[EncounterID] )
+
+Unique Patients =
+DISTINCTCOUNT ( Encounters[PatientID] )
+
+Average Length of Stay (Days) =
+AVERAGE ( Encounters[LengthOfStayDays] )
+
+Readmitted Encounters (30D) =
+CALCULATE ( [Total Encounters], Encounters[Readmitted30Days] = 1 )
+
+30-Day Readmission Rate =
+DIVIDE ( [Readmitted Encounters (30D)], [Total Encounters], 0 )
+
+ICU Encounters =
+CALCULATE ( [Total Encounters], Encounters[ICUFlag] = 1 )
+
+ICU Encounter Rate =
+DIVIDE ( [ICU Encounters], [Total Encounters], 0 )
+
+Expired Discharges =
+CALCULATE ( [Total Encounters], Encounters[DischargeDisposition] = "Expired" )
+
+Expired Discharge Rate =
+DIVIDE ( [Expired Discharges], [Total Encounters], 0 )
+
+Total Encounter Cost (USD) =
+SUM ( Encounters[TotalCostUSD] )
+
+Average Encounter Cost (USD) =
+DIVIDE ( [Total Encounter Cost (USD)], [Total Encounters], 0 )
+
+Lab Tests =
+COUNTROWS ( LabResults )
+
+Abnormal Lab Results =
+CALCULATE ( [Lab Tests], LabResults[AbnormalFlag] = 1 )
+
+Abnormal Lab Result Rate =
+DIVIDE ( [Abnormal Lab Results], [Lab Tests], 0 )
+
+Mean Lab Result =
+AVERAGE ( LabResults[Result] )
+
+/* Format all rate measures as Percentage. These are descriptive demo measures only. */
