@@ -15,7 +15,7 @@ class ClinicalDataTests(unittest.TestCase):
         self.assertTrue(set(self.labs["EncounterID"]).issubset(set(self.encounters["EncounterID"])))
     def test_binary_flags_are_valid(self):
         self.assertTrue(set(self.encounters["ICUFlag"].unique()).issubset({0, 1}))
-        self.assertTrue(set(self.encounters["Readmitted30Days"].unique()).issubset({0, 1}))
+        self.assertTrue(set(self.encounters["SimulatedReadmissionFlag"].unique()).issubset({0, 1}))
     def test_abnormal_flag_matches_reference_ranges(self):
         expected = ((self.labs["Result"] < self.labs["ReferenceLow"]) | (self.labs["Result"] > self.labs["ReferenceHigh"])).astype(int)
         self.assertTrue(expected.equals(self.labs["AbnormalFlag"].astype(int)))
