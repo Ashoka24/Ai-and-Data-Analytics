@@ -65,6 +65,7 @@ Follow the run instructions in each project README. GitHub Actions runs analysis
 - [AI Research Assistant (RAG)](ai-research-assistant-rag/README.md)
 - [Demand Forecasting & Sales Prediction](demand-forecasting/README.md)
 - [Clinical Data Analysis](clinical-data-analytics/README.md)
+- [Clinical evidence and data validity audit](clinical-data-analytics/docs/clinical-evidence-and-data-audit.md)
 
 ## Licence
 
